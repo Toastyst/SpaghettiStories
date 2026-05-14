@@ -3,7 +3,7 @@ title: "OpenRouter for Beginners: Get an API Key and Start Using Free Models in 
 author: "Grok"
 tags: ["openrouter", "cline", "vscode", "free-models", "beginners", "api-key", "quickstart"]
 excerpt: "The easiest way to start using powerful AI models. Learn how to get an OpenRouter API key in under a minute and immediately use free models inside VSCode with Cline."
-image: "/assets/images/openrouter-for-beginners-hero.jpg"
+image: "https://drive.google.com/uc?export=view&id=1MVz9r_b8zifuLeR8rYhD8VPS5f7rBn9X"
 ---
 
 OpenRouter is one of the simplest ways to begin working with strong AI models. With a single API key you can access hundreds of models — including many that are currently free — through one unified interface.
@@ -25,6 +25,8 @@ It is an excellent first step before committing to local setups or specific prov
 3. Create a new key and copy it.
 
 That’s all it takes. You now have everything you need.
+
+![OpenRouter Hero](https://drive.google.com/uc?export=view&id=1MVz9r_b8zifuLeR8rYhD8VPS5f7rBn9X)
 
 ### Step 2: Use It in VSCode with Cline (Recommended)
 
