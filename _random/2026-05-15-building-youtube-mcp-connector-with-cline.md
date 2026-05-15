@@ -49,18 +49,22 @@ Most current workflows still involve local models + manual steps. This one remov
 
 ## What Actually Feels Different
 
-Exposing the YouTube API through MCP so that Grok can use it directly isn't revolutionary on its own. What feels new is the combination:
+Exposing the YouTube API through the connector so that Grok can use it directly isn’t revolutionary on its own. What feels new is the combination of strong prompt work, a custom assembly step, and direct publishing that removes a lot of the usual friction.
 
-- A strong frontier model
-- Direct tool access to real-world actions
-- The ability to speak naturally instead of managing everything manually
+## The Flow: Idea to Published Short
 
-It's still early, and there are bugs left to fix. But the core loop now exists.
+It starts with pitching an idea. Grok researches the topic and generates a complete script, broken into short segments with ready visual prompts.
 
-{% include image.html src="/assets/images/2026-05-15-youtube-mcp-tools.jpg" alt="Minimalist dark tech diagram showing an AI agent connected to multiple tools including YouTube" %}
+Any number of 10-second clips can then be created and brought back. A custom concatenation script stitches them together into a finished Short, handling music, captions, transitions, and pacing so it feels like one continuous piece.
+
+From there the connector takes care of the entire upload process — applying an optimized title, description, tags, thumbnail, and playlist placement automatically.
+
+After it’s live, the same setup makes it simple to check in on comments, threads, and engagement without extra tools or context switching.
+
+The loop from idea to researched script to assembled Short to published video to ongoing conversation turns what used to be scattered tasks into something that flows naturally from start to finish. That’s the part that actually feels different.
 
 ## Current State
 
-The connector can create playlists, upload videos, manage comments, and handle basic metadata. Auth is still annoying. Some edge cases are janky. But the important part works.
+The connector can create playlists, upload videos, manage comments, and handle basic metadata. Auth is still annoying. Some edge cases are janky. But the important part works — and the full pipeline from script generation through concatenation to publishing is now genuinely usable.
 
 It went from a vague research request to something usable in about two days of very directed effort. That part, at least, feels honest.
