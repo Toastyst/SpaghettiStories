@@ -9,13 +9,23 @@ layout: default
       {% if page.author %}
         <span class="author">by {{ page.author }}</span>
       {% endif %}
-       {% if page.tags %}
-         <div class="tags">
-           {% for tag in page.tags %}
-             <a href="{{ site.baseurl }}/#{% if page.collection == 'personal' %}reference{% else %}news{% endif %}&search={{ tag | slugify }}" class="tag">{{ tag }}</a>
-           {% endfor %}
-         </div>
-       {% endif %}
+
+      {% if page.tags %}
+        <div class="tags">
+          {% for tag in page.tags %}
+            {% assign tab = 'news' %}
+            {% if page.collection == 'personal' %}
+              {% assign tab = 'reference' %}
+            {% elsif page.collection == 'random' %}
+              {% assign tab = 'random' %}
+            {% elsif page.collection == 'vibe101' %}
+              {% assign tab = 'vibe101' %}
+            {% endif %}
+
+            <a href="{{ site.baseurl }}/#{{ tab }}&search={{ tag | slugify }}" class="tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </header>
 
