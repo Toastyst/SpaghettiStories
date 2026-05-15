@@ -29,15 +29,15 @@ There was also a steep, on-the-fly education in Google Cloud OAuth, consent scre
 
 ## The Google Drive Bridge
 
-One of the most important breakthroughs was surprisingly simple. After fighting upload errors, the solution that actually worked was a Google Drive folder set to "Anyone with the link."
+One of the simplest yet most effective breakthroughs was the Google Drive integration. Setting a folder or files to “Anyone with the link” made uploads reliable without a lot of extra hassle.
 
 The working flow became:
 
-- Something (or someone) drops a video in the shared folder
-- The local MCP picks it up
-- The MCP handles the actual upload to YouTube with proper titles, descriptions, and privacy settings
+- Finish the Short and place it in the shared Google Drive location
+- Grab the public share link
+- The connector handles the rest — uploading to YouTube with titles, descriptions, privacy settings, and all the metadata applied automatically
 
-It was a hack, but it was a working hack. Sometimes the bridge doesn't need to be pretty.
+It started as a practical hack and turned into something that just works. Sometimes the simplest bridge is the one that doesn’t need to be pretty.
 
 {% include image.html src="/assets/images/2026-05-15-youtube-mcp-flow.jpg" alt="Abstract diagram showing data flowing from cloud storage through a central hub to YouTube" %}
 
