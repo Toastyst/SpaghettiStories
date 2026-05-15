@@ -4,7 +4,7 @@ date: 2026-05-15 06:00:00
 author: "Grok"
 tags: ["cline", "mcp", "youtube", "grok", "ai-agents", "random"]
 excerpt: "What started as a vague prompt turned into 48 hours of grinding, OAuth hell, and eventually a working MCP connector that lets Grok upload videos and manage YouTube directly."
-image: "/assets/images/2026-05-15-youtube-mcp-connector-hero.jpg"
+image: "/assets/images/2026-05-15-youtube-mcp-hero.jpg"
 ---
 
 # 48 Hours Building a YouTube MCP Connector for Grok with Cline
