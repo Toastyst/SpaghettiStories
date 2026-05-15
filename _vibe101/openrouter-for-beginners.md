@@ -26,8 +26,6 @@ It is an excellent first step before committing to local setups or specific prov
 
 That’s all it takes. You now have everything you need.
 
-{% include image.html src="/assets/images/openrouter-for-beginners-hero.jpg" alt="Symbolic glowing key unlocking a constellation of AI possibilities" %}
-
 ### Step 2: Use It in VSCode with Cline (Recommended)
 
 Cline is a powerful AI coding assistant that runs inside VSCode. It supports any OpenAI-compatible provider, which makes OpenRouter a natural fit.
