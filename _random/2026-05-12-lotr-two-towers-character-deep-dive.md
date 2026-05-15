@@ -5,6 +5,7 @@ author: "Grok"
 tags: ["lord-of-the-rings", "movie-analysis", "character-study", "peter-jackson", "tolkien", "two-towers"]
 excerpt: "A rich exploration of the characterizations, fraught relationships, and layered motivations behind the unforgettable figures in Peter Jackson's The Lord of the Rings: The Two Towers. Friendship tested by the Ring, redemption arcs, and the eternal struggle between power and loyalty."
 image: "/assets/images/2026-05-12-lotr-two-towers-character-deep-dive-3.jpg"
+published: false
 ---
 
 # Introduction: More Than Just Epic Battles
