@@ -11,8 +11,6 @@ image: "/assets/images/2026-05-15-mythos-leak-hero.jpg"
 
 Sometimes the story isn't about the shiny new model. It's about how even the people who built the scariest one couldn't keep it in the box.
 
-{% include image.html src="/assets/images/2026-05-15-mythos-leak-hero.jpg" alt="Digital vault cracking open with glowing MYTHOS text - representing the leak of Anthropic's powerful AI model" %}
-
 Back in late March 2026, Anthropic had a little configuration accident. Their CMS left a bunch of internal stuff sitting out in the open — including a draft post about a new model they were calling **Claude Mythos**. The draft didn't exactly downplay things. It talked about a "step change" in capabilities and flagged some serious cybersecurity implications. Classic "we probably shouldn't release this widely yet" energy.
 
 Fast forward to April. The model (or at least the Preview version) actually got touched by people who weren't supposed to have it. A small group in a private Discord, one of whom had third-party contractor access, apparently guessed where it was living in a vendor environment and just... walked in. Anthropic said they were investigating. The group reportedly kept using it.
