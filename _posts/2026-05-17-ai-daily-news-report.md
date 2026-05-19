@@ -11,8 +11,6 @@ image: "/assets/images/2026-05-17-ai-news-hero.jpg"
 
 **Big AI Companies Push Boundaries While Small Devs Build Agent Tools**
 
-{% include image.html src="/assets/images/2026-05-17-ai-news-hero.jpg" alt="Dark themed futuristic abstract AI neural network" %}
-
 ### Key Headlines from the Past 24 Hours
 
 - **OpenAI rolls out GPT-5.3 Instant & personal finance features**: Lightweight model with reduced hallucinations (up to 26.8% in connected mode) and smoother responses. New ChatGPT personal finance integration lets users connect bank accounts. Codex coding tool now previewing on mobile.
