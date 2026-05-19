@@ -11,8 +11,6 @@ image: "/assets/images/ai-news-20260518-hero.jpeg"
 
 **Big AI companies push agentic frontiers while accessible tools empower small coding agent developers.**
 
-{% include image.html src="/assets/images/ai-news-20260518-hero.jpeg" alt="Dark futuristic neural network visualization with glowing blue-purple nodes" %}
-
 ### Key Developments from the Past 24 Hours
 
 - **Kilo Code (free open-source VS Code extension)**: Run multiple AI coding agents in parallel using any model (Claude, GPT, Gemini) at cost. Reads your full codebase, writes files, executes terminal commands. Perfect for indie devs and small teams tackling complex agentic workflows.
