@@ -15,7 +15,7 @@
   </div>
   <img src="{% if include.item.image %}{{ include.item.image | prepend: site.baseurl }}{% else %}{{ '/assets/images/404_image.jpg' | prepend: site.baseurl }}{% endif %}" alt="{{ include.item.title }}" class="post-thumbnail">
   {% if include.item.excerpt %}
-    <p class="excerpt">{{ include.item.excerpt | strip_html | truncatewords: 30 }}</p>
+    <p class="excerpt">{{ include.item.excerpt | strip_html | truncatewords: 24 }}</p>
   {% endif %}
   <a href="{{ site.baseurl }}{{ include.item.url }}" class="read-more">Read more &rarr;</a>
 </article>
