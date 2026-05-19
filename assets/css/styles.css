@@ -99,9 +99,8 @@ main {
 .post-preview {
   background-color: var(--bg-secondary);
   border-radius: var(--border-radius);
-  padding: calc(var(--spacing-unit) * 3); /* reduced from *4 for tighter height */
+  padding: calc(var(--spacing-unit) * 3);
   transition: transform var(--transition), box-shadow var(--transition);
-  position: relative; /* enables absolute positioning of read-more */
 }
 
 .post-preview:hover {
@@ -168,10 +167,20 @@ main {
   font-weight: 500;
 }
 
+.post-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-top: 8px;
+  clear: both; /* ensures it sits below the floated thumbnail */
+}
+
 .excerpt {
   color: var(--text-secondary);
-  margin-bottom: 4px; /* reduced to help reclaim ~1.5 lines of height */
+  margin: 0;
   line-height: 1.7;
+  flex: 1;
 }
 
 .read-more {
@@ -179,12 +188,8 @@ main {
   text-decoration: none;
   font-weight: 500;
   transition: color var(--transition);
-
-  /* NEW: Position in bottom-right gap */
-  position: absolute;
-  bottom: 16px;
-  right: 24px;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .read-more:hover {
@@ -477,8 +482,12 @@ button:focus-visible {
     gap: calc(var(--spacing-unit) * 2);
   }
 
+  .post-content-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .read-more {
-    position: static; /* revert to normal flow on mobile */
     margin-top: 8px;
   }
 }
