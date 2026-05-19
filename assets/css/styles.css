@@ -99,8 +99,9 @@ main {
 .post-preview {
   background-color: var(--bg-secondary);
   border-radius: var(--border-radius);
-  padding: calc(var(--spacing-unit) * 4);
+  padding: calc(var(--spacing-unit) * 3); /* reduced from *4 for tighter height */
   transition: transform var(--transition), box-shadow var(--transition);
+  position: relative; /* enables absolute positioning of read-more */
 }
 
 .post-preview:hover {
@@ -169,7 +170,7 @@ main {
 
 .excerpt {
   color: var(--text-secondary);
-  margin-bottom: calc(var(--spacing-unit) * 2);
+  margin-bottom: 4px; /* reduced to help reclaim ~1.5 lines of height */
   line-height: 1.7;
 }
 
@@ -178,6 +179,12 @@ main {
   text-decoration: none;
   font-weight: 500;
   transition: color var(--transition);
+
+  /* NEW: Position in bottom-right gap */
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+  white-space: nowrap;
 }
 
 .read-more:hover {
@@ -468,6 +475,11 @@ button:focus-visible {
   .post-footer {
     flex-direction: column;
     gap: calc(var(--spacing-unit) * 2);
+  }
+
+  .read-more {
+    position: static; /* revert to normal flow on mobile */
+    margin-top: 8px;
   }
 }
 
