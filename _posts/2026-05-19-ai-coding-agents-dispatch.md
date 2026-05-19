@@ -11,8 +11,6 @@ image: "/assets/images/2026-05-19-ai-coding-agents-dispatch-hero.jpg"
 
 **Big Moves from Frontier Labs + Rising Small Agent Tools**
 
-{% include image.html src="/assets/images/2026-05-19-ai-coding-agents-dispatch-hero.jpg" alt="Dark futuristic AI hero with bold cartoon terminal, robot agent, and model release capsule icons" %}
-
 - **xAI Launches Grok Build Early Beta**: Elon Musk's xAI rolled out its first dedicated AI coding agent, Grok Build, available in early beta for SuperGrok Heavy subscribers ($300/mo). It runs from the terminal for technical development tasks and directly competes with Anthropic's Claude Code and OpenAI's Codex.
 
 - **Anthropic Expands Claude Managed Agents**: Added self-hosted sandboxes and MCP tunnels, letting enterprises run agent tool execution in their own infrastructure. Cloudflare also highlighted Anthropic's Mythos Preview for superior attack chain detection in code repos.
