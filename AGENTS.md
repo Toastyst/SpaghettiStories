@@ -2,6 +2,17 @@
 
 This file contains specialized skills and instructions for AI agents working on the Spaghetti Stories Jekyll blog.
 
+## Important: Read CONTENT-KB.md First
+
+**When writing any new article or post**, first read `CONTENT-KB.md` (at the root of the repo). It contains:
+- Current tone & style guidelines
+- High-level awareness of what has already been published
+- Long-term ideas and direction for the site
+
+This helps maintain consistency and allows new content to build intelligently on existing work.
+
+---
+
 ## Post Writing Skill
 
 **Skill Name:** Write Post
@@ -11,9 +22,10 @@ This file contains specialized skills and instructions for AI agents working on 
 **Instructions:**
 
 1. **Read Context:**
-   - Read README.md for site structure and image rules
+   - Read `CONTENT-KB.md` for tone, style, and content awareness
+   - Read `README.md` for site structure and image rules (if needed)
    - Run `list_files assets/images` to see existing images
-   - Check _config.yml for site settings
+   - Check `_config.yml` for site settings
 
 2. **Image Handling:**
    - **Path Format:** Always use `/assets/images/filename.ext` (no repo name prefix)
