@@ -72,7 +72,7 @@ Running locally gives you unlimited tool calls, full privacy, and zero per-token
 | 12+ GB VRAM GPU             | 30B+ Qwen3-Coder / GLM 4.7         | Fast, comfortable for complex sessions     |
 | High-end (24 GB+ VRAM)      | 30B–70B+ class (Q4/Q5 quant)     | Excellent speed + capability               |
 
-{% include image.html src="/assets/images/cline-local-vs-openrouter.jpg" alt="Clean split illustration showing Cline robot mascot connecting Local Ollama (Private & Offline) on the left with OpenRouter Cloud (Flexible & Powerful) on the right — clear choice for Cline model backends" %}
+{% include image.html src="/assets/images/cline-local-vs-cloud-minimal.jpg" alt="Minimal dark diagram showing Local Ollama (localhost:11434 + privacy) vs Cloud OpenRouter as two clean options feeding into Cline" %}
 
 **Quick Cline + Ollama setup:**
 1. Install Ollama from [ollama.com](https://ollama.com)
