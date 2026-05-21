@@ -72,7 +72,7 @@ Running locally gives you unlimited tool calls, full privacy, and zero per-token
 | 12+ GB VRAM GPU             | 30B+ Qwen3-Coder / GLM 4.7         | Fast, comfortable for complex sessions     |
 | High-end (24 GB+ VRAM)      | 30B–70B+ class (Q4/Q5 quant)     | Excellent speed + capability               |
 
-{% include image.html src="/assets/images/2026-05-21-cline-model-guide-3.jpg" alt="Split cartoon illustration comparing local privacy-focused Ollama LLM setup on a desktop with Cline connected via localhost versus cloud OpenRouter API key connection, both enabling successful Cline workflows" %}
+{% include image.html src="/assets/images/cline-local-vs-openrouter.jpg" alt="Clean split illustration showing Cline robot mascot connecting Local Ollama (Private & Offline) on the left with OpenRouter Cloud (Flexible & Powerful) on the right — clear choice for Cline model backends" %}
 
 **Quick Cline + Ollama setup:**
 1. Install Ollama from [ollama.com](https://ollama.com)
@@ -128,4 +128,4 @@ Start simple, test tool calling explicitly on a small task, and scale up. Cline 
 
 ---
 
-*Images generated with Grok Imagine in bold cartoon outline / flat icon style to perfectly match the SpaghettiStories dark tech blog aesthetic. Companion guide published to the SpaghettiStories _vibe101_ collection. Links verified May 2026. For the simple quickstart, see the updated [OpenRouter for Beginners](/vibe101/openrouter-for-beginners/) guide.*
+*Images generated with Grok Imagine in bold cartoon outline / flat icon style to perfectly match the SpaghettiStories dark tech blog aesthetic. Companion guide published to the SpaghettiStories _vibe101_ collection. Links verified May 2026. For the simple quickstart, see the updated [OpenRouter for Beginners](/vibe101/openrouter-for-beginners/)] guide.*
