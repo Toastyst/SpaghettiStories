@@ -10,7 +10,7 @@ Cline is an incredibly powerful VSCode agent because it doesn't just chat — it
 
 A "good" chat model can still be terrible at reliable tool use. This guide cuts through the noise and gives you the current best options (May 2026) for both **free OpenRouter** and **local Ollama**, plus the best places to research and compare models yourself.
 
-{% include image.html src="/assets/images/2026-05-21-cline-model-guide-1.jpg" alt="Bold cartoon illustration contrasting chaotic tool call errors and malformed outputs on the left with clean successful agent workflows, code edits, and happy outcomes on the right in a Cline context" %}
+{% include image.html src="/assets/images/2026-05-21-cline-model-guide-1.jpeg" alt="Bold cartoon illustration contrasting chaotic tool call errors and malformed outputs on the left with clean successful agent workflows, code edits, and happy outcomes on the right in a Cline context" %}
 
 ### Why Model Choice Matters So Much for Cline
 
@@ -43,7 +43,7 @@ OpenRouter makes it trivial to test models. Here are the standouts that users an
 - NVIDIA Nemotron 3 Super / Nano variants (free tiers) — Great for multi-step agent tasks
 - GLM 4.5 Air or similar GLM agent-centric models
 
-{% include image.html src="/assets/images/2026-05-21-cline-model-guide-2.jpg" alt="Cartoon bold outline illustration of OpenRouter as a friendly central hub connecting free-tier AI model cards (Laguna M.1, Owl Alpha, Nemotron) with glowing badges and a key icon, linked to Cline in VSCode" %}
+{% include image.html src="/assets/images/2026-05-21-cline-model-guide-2.jpeg" alt="Cartoon bold outline illustration of OpenRouter as a friendly central hub connecting free-tier AI model cards (Laguna M.1, Owl Alpha, Nemotron) with glowing badges and a key icon, linked to Cline in VSCode" %}
 
 **How to browse & filter yourself:**
 - [All tool-calling models](https://openrouter.ai/models?supported_parameters=tools)
@@ -72,7 +72,7 @@ Running locally gives you unlimited tool calls, full privacy, and zero per-token
 | 12+ GB VRAM GPU             | 30B+ Qwen3-Coder / GLM 4.7         | Fast, comfortable for complex sessions     |
 | High-end (24 GB+ VRAM)      | 30B–70B+ class (Q4/Q5 quant)     | Excellent speed + capability               |
 
-{% include image.html src="/assets/images/cline-local-vs-cloud-minimal.jpg" alt="Minimal dark diagram showing Local Ollama (localhost:11434 + privacy) vs Cloud OpenRouter as two clean options feeding into Cline" %}
+{% include image.html src="/assets/images/cline-local-vs-cloud-minimal.jpeg" alt="Minimal dark diagram showing Local Ollama (localhost:11434 + privacy) vs Cloud OpenRouter as two clean options feeding into Cline" %}
 
 **Quick Cline + Ollama setup:**
 1. Install Ollama from [ollama.com](https://ollama.com)
@@ -89,7 +89,7 @@ See our companion **[Ollama for Beginners](/vibe101/ollama-for-beginners/)** gui
 
 Don't just trust one source. These sites are the best "scoreboard centers" for comparing models:
 
-{% include image.html src="/assets/images/2026-05-21-cline-model-guide-4.jpg" alt="Bold cartoon illustration of a glowing futuristic trophy arena showcasing leaderboards and awards for LMSYS Chatbot Arena, Hugging Face Open LLM, Artificial Analysis, OpenRouter Tool Call Error Rate performance, and Cline community feedback" %}
+{% include image.html src="/assets/images/2026-05-21-cline-model-guide-4.jpeg" alt="Bold cartoon illustration of a glowing futuristic trophy arena showcasing leaderboards and awards for LMSYS Chatbot Arena, Hugging Face Open LLM, Artificial Analysis, OpenRouter Tool Call Error Rate performance, and Cline community feedback" %}
 
 **1. LMSYS Chatbot Arena (lmarena.ai)**  
 [https://lmarena.ai/](https://lmarena.ai/)  
