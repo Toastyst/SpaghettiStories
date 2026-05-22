@@ -46,31 +46,31 @@ Add `[Motion]. [Camera movement]. [Audio].`
 ## Example Images with Exact Prompts
 
 **Cinematic Portrait Example**
-![Cinematic Portrait](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-1-portrait.jpg)
+{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-1-portrait.jpg" alt="Cinematic Portrait Example" %}
 
 **Exact prompt used:**
 Cinematic portrait of a woman with sharp cheekbones and tired but determined eyes, wearing a slightly rumpled white button-down shirt, sitting alone at a wooden kitchen table at 5:17 a.m., soft pre-dawn light coming through a window on the left, steam rising from a mug of tea, medium close-up, shallow depth of field, 85mm lens, photorealistic, subtle film grain, natural skin texture, shot on Arri Alexa, ultra detailed
 
 **Cinematic Alley Scene**
-![Cinematic Alley](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-2-cinematic-alley.jpg)
+{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-2-cinematic-alley.jpg" alt="Cinematic Alley Scene" %}
 
 **Exact prompt used:**
 Wide establishing shot of a lone figure in a dark jacket walking fast through a rainy neon-lit alley at night in a cyberpunk city. Smooth tracking camera movement from the side. Cold blue and magenta neon reflections on wet pavement. Subtle film grain, cinematic lighting, photorealistic, moody atmosphere
 
 **Vertical Shorts Example**
-![Vertical Shorts](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-4-vertical-shorts.jpg)
+{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-4-vertical-shorts.jpg" alt="Vertical Shorts Example" %}
 
 **Exact prompt used:**
 Vertical 9:16 shot for YouTube Shorts: Close-up of a determined young man in his late 20s with short dark hair and stubble, wearing a black tactical jacket, standing in a rainy futuristic street at night. Neon signs reflecting in his eyes. Camera slowly pushing in. Cinematic, high contrast lighting, photorealistic, subtle film grain, moody cyberpunk atmosphere
 
 **Product / Commercial Example**
-![Product Photography](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-3-product.jpg)
+{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-3-product.jpg" alt="Product Photography Example" %}
 
 **Exact prompt used:**
 Premium product photography of a matte black high-end wireless headphone on a dark marble surface with subtle reflections. Soft volumetric side lighting from the left, shallow depth of field, 85mm lens f/2, clean minimalist composition, photorealistic, luxury commercial style, ultra sharp details
 
 **Character Consistency Example**
-![Character Consistency Diptych](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-5-character-consistency.jpg)
+{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-5-character-consistency.jpg" alt="Character Consistency Diptych" %}
 
 **Exact prompt used:**
 Side-by-side character consistency example: Same woman, exact same face and features. Left: professional business attire in bright modern office with natural window light. Right: casual black leather jacket in moody evening street with street lights. Photorealistic, cinematic lighting, ultra detailed skin and fabric, diptych style
