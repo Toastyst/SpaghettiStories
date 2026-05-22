@@ -136,7 +136,7 @@ You get far better control over subject, lighting, and composition. Generate a s
 
 **Real example showing character consistency (YouTube Short):**
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/d6voKRHww0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/7l7ze8pd4O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
 
 **Best practice:** Generate 1–2 strong reference images first → use them in Image-to-Video + Reference-to-Video mode. This is the secret to series content.
 
