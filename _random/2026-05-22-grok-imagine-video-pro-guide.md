@@ -79,7 +79,10 @@ Cinematic vertical 9:16 hook shot of a determined young man in a black tactical 
 
 **Recommended video clip (generate this one first):**
 
-{% include video.html src="/assets/videos/2026-05-22-grok-imagine-video-01-hook.mp4" %}
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+  <source src="/assets/videos/2026-05-22-grok-imagine-video-01-hook.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Copy-paste video prompt:**
 
