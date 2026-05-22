@@ -99,6 +99,10 @@ Vertical 9:16 YouTube Short hook: Close-up of a determined young man in a black 
 
 {% include image.html src="/assets/images/2026-05-22-grok-imagine-video-03-image-to-video.jpg" alt="Image-to-Video workflow example showing strong visual control" %}
 
+**Real example generated with Image-to-Video workflow (YouTube Short):**
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Ohp5hPtSzwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
+
 **Why Image-to-Video usually wins for Shorts:**
 You get far better control over subject, lighting, and composition. Generate a strong keyframe image first (using the image guide techniques), then animate it.
 
@@ -109,6 +113,10 @@ You get far better control over subject, lighting, and composition. Generate a s
 **Camera move examples:**
 
 {% include image.html src="/assets/images/2026-05-22-grok-imagine-video-04-camera-move.jpg" alt="Examples of effective camera movements for vertical YouTube Shorts" %}
+
+**Real example demonstrating camera movement (YouTube Short):**
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/E9TFSkgiU4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
 
 **Camera language that works well in Grok:**
 - `slow push-in` / `dolly zoom`
@@ -125,6 +133,10 @@ You get far better control over subject, lighting, and composition. Generate a s
 **Consistency example (same character across different shots):**
 
 {% include image.html src="/assets/images/2026-05-22-grok-imagine-video-05-consistency.jpg" alt="Character consistency example across multiple Grok Imagine video clips" %}
+
+**Real example showing character consistency (YouTube Short):**
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/d6voKRHww0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
 
 **Best practice:** Generate 1–2 strong reference images first → use them in Image-to-Video + Reference-to-Video mode. This is the secret to series content.
 
