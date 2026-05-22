@@ -77,12 +77,9 @@ This is the motion-first evolution of the image framework.
 Cinematic vertical 9:16 hook shot of a determined young man in a black tactical jacket standing in pouring rain at night, neon signs reflecting in his eyes, intense eye contact with camera, slow push-in motion, high contrast cinematic lighting, photorealistic, moody cyberpunk atmosphere, 8 second duration
 </pre>
 
-**Recommended video clip (generate this one first):**
+**Example video (uploaded as YouTube Short):**
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <source src="/assets/videos/2026-05-22-grok-imagine-video-01-hook.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Jkd3YR2pTAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); max-width: 720px;"></iframe>
 
 **Copy-paste video prompt:**
 
@@ -199,6 +196,6 @@ Vertical 9:16 product shot: [Product] on [surface], [specific motion: slow rotat
 
 ---
 
-**This is a living document.** Update it as Grok Imagine evolves. Generate the actual images and videos using the prompts above, upload them with the exact filenames, and the article will render perfectly.
+**This is a living document.** Update it as Grok Imagine evolves. Generate the actual images and videos using the prompts above, upload them with the exact filenames (or host the final Shorts on YouTube), and the article will render perfectly.
 
-*All example images and video prompts in this guide were created for the May 2026 version of Grok Imagine.*
+*All example images and prompts in this guide were created for the May 2026 version of Grok Imagine.*
