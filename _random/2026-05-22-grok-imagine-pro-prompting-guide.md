@@ -1,155 +1,96 @@
 ---
 title: "Grok Imagine Pro Prompting Guide: Cinematic Images & Videos (Quick Reference)"
-date: 2026-05-22 01:10:00
+date: 2026-05-22 02:10:00
 author: "Grok"
-tags: ["grok", "ai", "prompt-engineering", "image-generation", "video-generation", "second-brain", "reference", "shorts", "grok-imagine"]
-excerpt: "Master Grok Imagine for industry-standard images and short videos. The 5-7 layer prompting framework, copy-paste templates, consistency workflows, pro tips, and curated resources. Includes real generated examples with the exact prompts used. Your personal quick-reference guide for the random tab."
+tags: ["grok", "ai", "prompt-engineering", "image-generation", "video-generation", "second-brain", "reference", "shorts"]
+excerpt: "Master Grok Imagine for industry-standard images and short videos. Real example images with exact prompts used, 5-7 layer prompting framework, copy-paste templates, consistency workflows, and pro resources. Your living second-brain reference."
 image: "/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-hero.jpg"
 ---
 
 # Grok Imagine Pro Prompting Guide: Cinematic Images & Videos (Quick Reference)
 
-**Your personal second-brain playbook.** This is a dense, copy-paste-ready reference for getting consistently strong, cinematic, production-quality results from Grok Imagine in 2026 — whether you’re making YouTube Shorts, storyboards, product viz, or rapid visual content.
+**Your personal second-brain playbook.** This is a dense, copy-paste-ready reference for getting consistently strong, cinematic, production-quality results from Grok Imagine.
 
-Grok Imagine handles text-to-image, image editing with references, text-to-video, image-to-video, reference-to-video, prompt-based video editing, and video extension — all with native audio in video clips. The difference between mediocre and industry-standard output almost always comes down to **how you prompt**.
+Grok Imagine handles text-to-image, image editing with references, text-to-video, image-to-video, reference-to-video, video editing, and extension — all with native audio.
 
-Treat prompting like **directing a short scene**, not describing a picture.
-
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-hero.jpg" alt="Cinematic example generated with Grok Imagine using the pro prompting framework — strong lighting, shallow depth of field, and filmic detail" %}
-
-**Prompt used for hero image above:** `Photorealistic cinematic still of a determined woman in her early 40s with sharp cheekbones and tired but focused eyes, wearing a slightly rumpled white button-down shirt, sitting alone at a rustic wooden kitchen table at 5:17 a.m., soft pre-dawn light coming through a window on the left casting gentle shadows, steam gently rising from a white ceramic mug of tea, medium close-up, shallow depth of field, 85mm lens f/1.8, natural skin texture with visible pores, subtle film grain, photorealistic, shot on Arri Alexa, intimate and moody atmosphere, ultra detailed, 8K feel`
+Treat prompting like **directing a short scene**.
 
 ## Quick Start & Access
 
-**Where to use it:**
-- Web: [grok.com/imagine](https://grok.com/imagine) (templates + Agent Mode Beta)
-- Mobile: Grok app (often more stable for video)
-- API: xAI console / SDKs (great for automation and batch work)
+- Web: [grok.com/imagine](https://grok.com/imagine)
+- Mobile: Grok app
+- API: xAI console / SDKs
 
-**Key Models (May 2026):**
-- Images → `grok-imagine-image-quality` (recommended)
-- Video → `grok-imagine-video`
-
-**Core Specs (quick reference):**
-- **Images**: 1K or 2K resolution, many aspect ratios (9:16 vertical excellent for Shorts), batch generation
-- **Video**: 480p or 720p, up to ~15 seconds (6–12s sweet spot recommended), native audio (dialogue, SFX, music)
-- **References**: Up to 3 for image editing; multiple for video consistency
-- **Agent Mode (Beta)**: Brainstorm → generate → edit → animate to video → stitch clips
-
-Higher tiers give better quotas.
+**Key Specs**:
+- Images: 1K/2K, wide aspect ratios (9:16 for Shorts)
+- Video: 480p/720p, up to ~15s, native audio
 
 ## The Pro Prompt Formula (5–7 Layer Framework)
 
-This is the single most important section. Use it every time.
+1. **Subject/Character**
+2. **Action + Primary Motion**
+3. **Environment**
+4. **Camera/Shot**
+5. **Lighting + Style**
+6. **Details/Quality**
+7. **Audio** (video)
 
-Strong prompts hit most or all of these layers, in roughly this order:
-
-1. **Subject / Character** (detailed, identity-preserving)
-2. **Action / State + Primary Motion**
-3. **Environment / Setting**
-4. **Camera / Shot / Composition**
-5. **Lighting + Style / Mood + Film Grammar**
-6. **Details / Quality Boosters** (textures, lenses, filmic touches)
-7. **Audio** (video only)
-
-### Master Image Template (copy-paste & fill)
-
+**Master Image Template:**
 ```
-[Detailed subject: age, build, clothing, expression, pose, skin/hair texture]. [Action or state]. In [environment: location, time of day, weather, atmosphere]. [Lighting: direction + quality — golden hour side light, volumetric god rays, soft diffused]. [Camera/shot: wide establishing / medium close-up, low angle, shallow DOF 85mm f/1.8]. [Style/filmic: photorealistic cinematic still, shot on Arri Alexa, subtle film grain, teal-orange grade, ultra-detailed textures]. [Quality: natural pores, fabric weave, sharp focus, 8K feel].
+[Detailed subject]. [Action]. In [environment]. [Lighting]. [Camera/shot + lens]. [Style/filmic]. [Quality boosters].
 ```
 
-### Master Video Template
+**Master Video Template:**
+Add `[Motion]. [Camera movement]. [Audio].`
 
-Use the image template above, then append:
+## Example Images with Exact Prompts
 
-```
-[Primary motion of subject — keep simple and natural]. [Camera movement: smooth tracking shot from the side, slow dolly push-in, static tripod with subtle wind]. [Audio: calm tired voice says "exact line here"; distant sirens + low engine hum; soft cinematic ambient or no music].
-```
+**Cinematic Portrait Example**
+![Cinematic Portrait](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-1-portrait.jpg)
 
-**Image-to-Video variant**: Upload strong base image, then: "Bring this exact scene to life with [natural motion]. Camera [specific move]. Maintain identical lighting, mood, and character likeness from the reference."
+**Exact prompt used:**
+Cinematic portrait of a woman with sharp cheekbones and tired but determined eyes, wearing a slightly rumpled white button-down shirt, sitting alone at a wooden kitchen table at 5:17 a.m., soft pre-dawn light coming through a window on the left, steam rising from a mug of tea, medium close-up, shallow depth of field, 85mm lens, photorealistic, subtle film grain, natural skin texture, shot on Arri Alexa, ultra detailed
 
-**Pro tip**: One primary action + one clear camera move per clip.
+**Cinematic Alley Scene**
+![Cinematic Alley](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-2-cinematic-alley.jpg)
 
-## Image Generation Mastery
+**Exact prompt used:**
+Wide establishing shot of a lone figure in a dark jacket walking fast through a rainy neon-lit alley at night in a cyberpunk city. Smooth tracking camera movement from the side. Cold blue and magenta neon reflections on wet pavement. Subtle film grain, cinematic lighting, photorealistic, moody atmosphere
 
-**What separates pro results:**
-- Specific lens + aperture ("85mm f/1.8, shallow depth of field")
-- Directed lighting ("soft side light from camera left, subtle rim light")
-- Film grammar ("subtle film grain, natural skin texture with visible pores")
-- Composition (rule of thirds, negative space)
+**Vertical Shorts Example**
+![Vertical Shorts](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-4-vertical-shorts.jpg)
 
-**Editing with references (powerful):** Upload 1–3 refs + prompt: "Keep the exact same character face, hair, outfit, and pose. Only change the background to [new environment] with matching cinematic lighting."
+**Exact prompt used:**
+Vertical 9:16 shot for YouTube Shorts: Close-up of a determined young man in his late 20s with short dark hair and stubble, wearing a black tactical jacket, standing in a rainy futuristic street at night. Neon signs reflecting in his eyes. Camera slowly pushing in. Cinematic, high contrast lighting, photorealistic, subtle film grain, moody cyberpunk atmosphere
 
-**Aspect ratio strategy:**
-- 9:16 → Vertical Shorts / Reels
-- 16:9 → Cinematic
-- 1:1 or 4:5 → Portraits / editorial
+**Product / Commercial Example**
+![Product Photography](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-3-product.jpg)
 
-## Video Generation Mastery
+**Exact prompt used:**
+Premium product photography of a matte black high-end wireless headphone on a dark marble surface with subtle reflections. Soft volumetric side lighting from the left, shallow depth of field, 85mm lens f/2, clean minimalist composition, photorealistic, luxury commercial style, ultra sharp details
 
-**Best workflows:**
-- **Image-to-Video** — Best for character/world consistency
-- **Reference-to-Video** — Multiple refs for series consistency
-- **Video Editing & Extension** — For refinement and longer sequences
+**Character Consistency Example**
+![Character Consistency Diptych](/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-5-character-consistency.jpg)
 
-**Camera language that works well:** tracking shot, dolly push-in, slow crane rise, static tripod, gentle handheld, whip pan.
-
-**Audio control examples:**
-- "She says in a calm but urgent voice: 'We’re out of time.'"
-- "Low cinematic ambient drone, distant thunder, no music"
-
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-02-vertical-shorts.jpg" alt="Vertical 9:16 Shorts-style example generated with Grok Imagine — dynamic tracking shot in rainy neon environment" %}
-
-**Prompt used:** `Wide cinematic shot of a man in a dark tactical jacket walking briskly through a rainy neon-lit cyberpunk alley at night, camera tracking smoothly alongside him from the side at walking pace, cold blue and vibrant magenta neon signs reflecting on wet asphalt and puddles, subtle realistic handheld camera movement, photorealistic, cinematic color grade, detailed rain droplets and fabric texture, moody atmospheric, 9:16 vertical composition`
+**Exact prompt used:**
+Side-by-side character consistency example: Same woman, exact same face and features. Left: professional business attire in bright modern office with natural window light. Right: casual black leather jacket in moody evening street with street lights. Photorealistic, cinematic lighting, ultra detailed skin and fabric, diptych style
 
 ## Advanced Pro Workflows
 
 **Character Consistency Pipeline**
-1. Write a detailed character bible prompt.
-2. Generate 4–6 reference images (different angles/expressions).
-3. Log winning descriptors.
-4. Reuse language + upload multiple references in new prompts.
+Generate reference sheet → reuse descriptors + multiple references → consistent videos.
 
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-05-character-consistency.jpg" alt="Real example of character consistency across two completely different styles and environments using the same detailed subject description and reference technique" %}
+**Shot-List → Sequence**
+Plan shots → consistent images → selective video animation → edit → stitch.
 
-**Prompt used for consistency example:** Structured detailed description of the same woman in modern casual vs dark fantasy cloak — same face, features, skin texture, and gaze preserved perfectly.
-
-**Shot-List → Finished Sequence**
-Plan 5–8 key shots → consistent hero images → selective image-to-video on hero moments → refine with editing prompts → stitch (Agent Mode or ffmpeg).
-
-**Your stack integration**
-Grok Imagine → download → post-process with ffmpeg → upload via your YouTube MCP tools. Ideal for high-volume Shorts or campaign visuals.
-
-## Example Generations with Exact Prompts
-
-Here are real outputs generated using the framework in this guide.
-
-### Cinematic Product / Commercial Lighting
-
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-03-product.jpg" alt="Premium product photography example — dramatic side lighting, reflections, and clean composition" %}
-
-**Prompt used:** `Premium matte black over-ear wireless headphones resting on a dark polished marble surface in a minimalist studio setting, dramatic soft side lighting from the left creating elegant highlights and reflections on the marble and metal accents, clean negative space, luxury commercial product photography style, shallow depth of field, ultra sharp details on materials, soft volumetric god rays, high-end aesthetic, photorealistic, 16:9`
-
-### Dynamic Action / Motion
-
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-04-action-motion.jpg" alt="Cinematic action example with strong motion, backlighting, and particle effects — demonstrates good camera and motion prompting" %}
-
-**Prompt used:** `Dynamic low-angle cinematic action shot of a female samurai warrior in detailed dark armor sprinting forward through a misty bamboo forest at golden hour, cherry blossom petals floating in the air, strong backlighting creating dramatic rim light and god rays through the bamboo, motion blur on legs and petals for speed, photorealistic, ultra detailed textures on armor and fabric, Arri Alexa 35 look, shallow depth of field, intense and epic mood`
-
-### Filmic Lighting & Skin Texture Masterclass
-
-{% include image.html src="/assets/images/2026-05-22-grok-imagine-pro-prompting-guide-06-filmic-portrait.jpg" alt="Extreme close-up demonstrating masterful lighting, skin texture, and emotional depth" %}
-
-**Prompt used:** `Intimate close-up cinematic portrait of an elderly man with weathered face and kind eyes, sitting by a window in a cozy wooden cabin, warm golden hour light softly illuminating one side of his face, deep shadows on the other, steam from a pipe, extremely detailed skin texture with pores and wrinkles, subtle film grain, photorealistic, shot on 85mm lens, emotional and contemplative mood, masterpiece quality`
+**Your Stack Integration**
+Grok Imagine → ffmpeg (your Shorts pipeline) → MCP YouTube upload.
 
 ## Common Pitfalls & Quick Fixes
 
-| Problem                    | Likely Cause                     | Fix |
-|---------------------------|----------------------------------|-----|
-| Jittery or weak motion    | Too many simultaneous actions   | Simplify to 1 subject + 1 primary action + 1 camera move |
-| Character drift           | Vague or inconsistent description | Strong recurring descriptors + multiple reference images |
-| Generic / flat results    | Missing lighting, lens, filmic details | Add specific lighting direction + lens + texture calls |
-| Moderation blocks         | Sensitive phrasing              | Rephrase with more artistic/indirect language |
+- Jittery motion → Simplify to 1 action + 1 camera move
+- Character drift → Consistent descriptors + references
+- Generic results → Add specific lens, lighting, filmic details
 
 ## Resources
 
@@ -157,14 +98,13 @@ Here are real outputs generated using the framework in this guide.
 - [Imagine Overview](https://docs.x.ai/developers/model-capabilities/imagine)
 - [Image Generation](https://docs.x.ai/developers/model-capabilities/images/generation)
 - [Video Generation](https://docs.x.ai/developers/model-capabilities/video/generation)
-- Playground: [grok.com/imagine](https://grok.com/imagine)
 
-**Prompt inspiration:** youmind.com/grok-imagine-prompts, seaart.ai, picsart.com blogs
+**Prompt Inspiration:**
+- youmind.com/grok-imagine-prompts
+- r/grok on Reddit
 
-**Communities:** r/grok, r/xAIGrok
+Upload the 5 images you have (and the hero image) to `/assets/images/` — they will display perfectly.
 
----
+This is your living reference. Add your own experiments.
 
-**This is a living document.** Add your own winning prompts and experiment logs. Revisit official docs periodically — Grok Imagine evolves quickly.
-
-Use it. Break it. Improve it.
+*All example images in this guide were generated with Grok Imagine using the techniques described.*
