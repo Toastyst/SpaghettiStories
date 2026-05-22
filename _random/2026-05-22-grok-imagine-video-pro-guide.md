@@ -52,9 +52,9 @@ This is the motion-first evolution of the image framework.
 
 **Master Video Prompt Template:**
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 [Subject + detailed appearance + character reference if using one]. [Primary action + specific motion]. [Camera movement + timing]. In [environment + time of day + lighting]. [Style + film grammar]. [Audio direction: voice tone, music style, SFX]. [Technical: 9:16 vertical, 8–12 second duration, 720p].
-```
+</pre>
 
 **Key additions for Shorts:**
 - Always specify **9:16 vertical** and **duration**
@@ -73,22 +73,19 @@ This is the motion-first evolution of the image framework.
 
 **Exact prompt used:**
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 Cinematic vertical 9:16 hook shot of a determined young man in a black tactical jacket standing in pouring rain at night, neon signs reflecting in his eyes, intense eye contact with camera, slow push-in motion, high contrast cinematic lighting, photorealistic, moody cyberpunk atmosphere, 8 second duration
-```
+</pre>
 
 **Recommended video clip (generate this one first):**
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
-  <source src="/assets/videos/2026-05-22-grok-imagine-video-01-hook.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+{% include video.html src="/assets/videos/2026-05-22-grok-imagine-video-01-hook.mp4" %}
 
 **Copy-paste video prompt:**
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 Vertical 9:16 YouTube Short hook: Close-up of a determined young man in a black tactical jacket in heavy rain at night, neon reflections in his eyes, slow dramatic push-in toward his face, intense eye contact, high contrast cinematic lighting, moody atmosphere, native audio with subtle rain and low cinematic drone, 8 second duration
-```
+</pre>
 
 ---
 
@@ -150,21 +147,21 @@ You get far better control over subject, lighting, and composition. Generate a s
 
 ### Hook Template (First 3 Seconds)
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 Vertical 9:16 hook: [Subject] [strong action + emotion] in [environment], [specific camera move], intense eye contact or dramatic reveal, high contrast lighting, 3 second duration
-```
+</pre>
 
 ### Full Storytelling Short Template
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 9:16 vertical Short: [Character] [does something] in [location]. [Camera move 1]. Cut to [new angle + action]. [Camera move 2]. End with [strong closer or CTA]. Native audio with [voice + music direction]. 12 second duration
-```
+</pre>
 
 ### Product / UGC Style
 
-```
+<pre style="white-space: pre-wrap; word-break: break-word; background: #111; padding: 1rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;">
 Vertical 9:16 product shot: [Product] on [surface], [specific motion: slow rotate / steam rising / liquid pouring], soft cinematic side lighting, shallow depth of field, luxury commercial feel, native subtle music bed, 9 second duration
-```
+</pre>
 
 ---
 
@@ -199,6 +196,6 @@ Vertical 9:16 product shot: [Product] on [surface], [specific motion: slow rotat
 
 ---
 
-**This is a living document.** Update it as Grok Imagine evolves. Generate the actual images and videos using the prompts below, upload them with the exact filenames, and the article will render perfectly.
+**This is a living document.** Update it as Grok Imagine evolves. Generate the actual images and videos using the prompts above, upload them with the exact filenames, and the article will render perfectly.
 
 *All example images and video prompts in this guide were created for the May 2026 version of Grok Imagine.*
