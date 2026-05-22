@@ -15,7 +15,7 @@ Grok Imagine handles text-to-image, image editing with references, text-to-video
 
 Treat prompting like **directing a short scene**.
 
-**Dedicated video guide coming soon:** For a focused deep-dive on Grok Imagine **video** generation (motion, camera moves, timing, audio, and advanced video-specific techniques), see the upcoming [Grok Imagine Video Pro Guide](/random/2026-05-22-grok-imagine-video-guide/).
+**Dedicated video guide:** For a focused deep-dive on Grok Imagine **video** generation (motion, camera moves, timing, audio, and advanced video-specific techniques), see the [Grok Imagine Video Pro Guide](/random/2026-05-22-grok-imagine-video-pro-guide/).
 
 ## Quick Start & Access
 
