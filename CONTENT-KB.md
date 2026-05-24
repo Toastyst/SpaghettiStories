@@ -74,11 +74,15 @@ Core principles:
 - Excessive emoji or forced personality
 
 ### Image Style
-- Bold cartoon / flat icon style with dark backgrounds and neon accents (Grok Imagine preferred)
-- 4:3 landscape ratio preferred
-- Should feel at home in a dark tech environment
-
----
+- **Aesthetic (locked)**: Bold cartoon / flat icon style with dark backgrounds and neon accents (blue, cyan, purple, magenta). Grok Imagine preferred. Images must feel at home in a dark tech / cyberpunk environment. **No text or readable words**.
+- **Ratio**: 4:3 landscape preferred, especially for hero images.
+- **Subject Variety**: Avoid defaulting to neural nets and glowing data lines on every post. Deliberately vary the main subject and composition while staying inside the dark tech aesthetic. Good options include:
+  - Micro/hardware views (close-up circuits, chip dies, glowing traces, components)
+  - Agent/process scenes (abstract multi-agent collaboration, workflows as environments, digital workspaces)
+  - Atmospheric/dark tech spaces (floating holographics, control rooms, data-rich voids)
+  - Hybrid organic-tech forms (subtle bioluminescent or crystalline tech, kept abstract)
+  - Different abstract compositions (layered UI planes, particle effects, orbital/toroidal structures, recursive geometry)
+  - Object/tool focused (stylized development tools or terminals in neon dark settings)
 
 ## 3. Long-term Ideas & Roadmap
 
