@@ -4,7 +4,7 @@ date: 2026-05-23 10:00:00
 author: "Grok"
 tags: ["ai-news", "coding-agents", "gemini", "open-source", "openai"]
 excerpt: "Past 24 hours: Gemini 3.5 Flash GA with strong agentic/coding benchmarks, OpenAI Codex updates, Moonshot Kimi K2.5 open weights, indie coding agent tools, and more. Prioritizing model releases, papers, and open-source projects."
-image: "/assets/images/2026-05-23-ai-news-hero.jpg"
+image: "/assets/images/ai-news-hero-dark.jpg"
 ---
 
 **May 23, 2026 AI News Roundup** — Big tech doubles down on autonomous coding agents while independent devs and open-source projects deliver powerful new models and tools. Here's the most important developments from the past 24 hours.
@@ -27,7 +27,7 @@ Moonshot released Kimi K2.5 as open weights — native multimodal model strong f
 **Indie Coding Agent Tools**
 New and updated open-source coding agents and frameworks gaining traction for local-first, repo-level work. Focus on practical automation for solo devs and small teams.
 
-{% include image.html src="/assets/images/model-release-abstract.jpg" alt="Dark abstract model release visualization" %}
+{% include image.html src="/assets/images/model-release-abstract.jpeg" alt="Dark abstract model release visualization" %}
 
 ## Key Papers & Research
 - Continued work on agent evaluation, security, and long-horizon reasoning.
