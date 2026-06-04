@@ -55,3 +55,30 @@ For now, the agents are writing more code than ever — the question is, whose c
 - PilotDeck launch: [GitHub](https://github.com)
 - Ars Technica: [10 things I learned from burning myself out with AI coding agents](https://arstechnica.com)
 - Various LLM news aggregators (May 27–28, 2026)
+
+## Tools Mentioned
+
+A quick reference for everything covered in this post:
+
+| Tool | Type | Price | Best For |
+|------|------|-------|----------|
+| [Claude (Anthropic)](https://claude.com) | Proprietary | $20+/mo | Context-aware coding agents |
+| [GPT-5.5 / Codex (OpenAI)](https://openai.com) | Proprietary | $20+/mo | Enterprise agentic workflows |
+| [Gemini (Google)](https://gemini.google.com) | Freemium | Free-$20/mo | Google ecosystem integration |
+| [Grok (xAI)](https://x.ai) | Proprietary | $16+/mo | Raw compute, terminal workflows |
+| [Cursor](https://cursor.com) | Freemium | $20/mo | Polished AI IDE, everyday coding |
+| [Aider](https://aider.chat) | Open Source | Free | Terminal pair programming |
+| [PilotDeck](https://github.com/) | Open Source | Free | Multi-agent workspaces |
+| [OpenClaw](https://openclaw.ai) | Open Source | Free | Local-first agent orchestration |
+
+*Some links above are to paid tools. We don't earn commissions on them — we just think they're worth knowing about.*
+
+## Support Open Source
+
+Aider, PilotDeck, and the Agent Governance Toolkit are all open-source projects built by volunteers. If you use them:
+
+- **Aider**: [Sponsor on GitHub](https://github.com/sponsors/Aider-AI)
+- **PilotDeck**: Star the repo and contribute
+- **Agent Governance Toolkit**: [Microsoft Open Source](https://github.com/microsoft)
+
+Every dollar and every PR keeps the indie ecosystem alive.
