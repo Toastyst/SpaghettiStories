@@ -7,6 +7,11 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/feed.xml">
+
+  <!-- Google AdSense — replace ca-pub-XXXXXXXXXXXXXXXX with your actual publisher ID -->
+  <!-- SRI not used for AdSense as Google requires dynamic script injection; 'crossorigin' is set -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+    crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -22,7 +27,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; <a href="{{ site.baseurl }}/feed.xml">RSS</a></p>
     </div>
   </footer>
 

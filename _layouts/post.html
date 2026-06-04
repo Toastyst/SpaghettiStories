@@ -39,6 +39,17 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- Newsletter CTA -->
+  <div class="post-newsletter">
+    <h3>📬 Get Daily AI News in Your Inbox</h3>
+    <p>Join readers getting our daily AI coding agent briefing. No spam, unsubscribe anytime.</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/spaghettistories" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/spaghettistories', 'popupwindow')" class="newsletter-form">
+      <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input" />
+      <input type="hidden" name="tag" value="post-footer" />
+      <button type="submit" class="newsletter-button">Subscribe</button>
+    </form>
+  </div>
+
   <footer class="post-footer">
     {% if page.previous %}
       <a href="https://toastyst.github.io/SpaghettiStories{{ page.previous.url }}" class="prev-post">&larr; {{ page.previous.title }}</a>
