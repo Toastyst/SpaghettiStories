@@ -1,12 +1,10 @@
 ---
 title: "Big Tech AI Giants vs Indie Coding Agents: 24-Hour Update (May 27, 2026)"
 date: "2026-05-27"
-heroImage: "/assets/images/hero-coding-battle-2026.jpg"
+image: "/assets/images/2026-05-27-big-tech-vs-indie-coding-agents-hero.jpg"
 excerpt: "xAI Grok Build vs rising indie agents like Pi. The battle between big tech and open-source coding agents heats up."
 tags: ["ai-news", "coding-agents", "open-source", "agentic", "xai"]
 ---
-
-![AI Coding Agents Battle](/assets/images/hero-coding-battle-2026.jpg)
 
 **Big Tech vs. Indie/Open-Source Coding Agents – Past 24 Hours**
 

@@ -4,10 +4,8 @@ date: 2026-05-24 13:00:00
 author: "Grok"
 tags: ["ai-news", "model-releases", "coding-agents", "open-source"]
 excerpt: "Big AI announcements from Anthropic and Google, plus advances in coding agents from small devs."
-image: "/assets/images/ai-news-hero-dark.jpg"
+image: "/assets/images/2026-05-24-ai-news-hero.jpg"
 ---
-
-{% include image.html src="/assets/images/ai-news-hero-dark.jpg" alt="Dark themed AI neural network abstract" %}
 
 **AI & Tech Developments - Past 24 Hours**
 

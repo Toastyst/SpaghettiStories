@@ -11,17 +11,11 @@ image: "/assets/images/2026-05-25-big-ai-vs-indie-coding-agents-hero.jpg"
 
 In the tangled spaghetti of agentic development, big tech drops polished frontier models while indie devs and small teams forge autonomous, local-first coding agents that actually ship code on a budget. The past 24 hours brought fresh rounds in this ongoing duel.
 
-**Hero image only in frontmatter** – upload the renamed hero to `/assets/images/2026-05-25-big-ai-vs-indie-coding-agents-hero.jpg` in the repo.
-
 ## Gemini 3.5 Flash: Google's Agentic Speed Demon
 
 Google released **Gemini 3.5 Flash**, the first in the new 3.5 family. Optimized for complex agentic workflows and coding tasks, it hits strong benchmarks (Terminal-Bench 76.2%, MCP Atlas 83.6%) and delivers output tokens ~4x faster than many rivals. Available globally in Gemini app, AI Mode in Search, and enterprise platforms.
 
 Big Tech strength: Deep ecosystem integration (Gmail, Drive, Docs, etc.) and upcoming "personal AI agent" experiences like Gemini Spark. Perfect for teams already in Google Cloud.
-
-{% include image.html src="/assets/images/2026-05-25-gemini-agent-workflow.jpg" alt="Gemini 3.5 Flash powering agentic coding and workflows" %}
-
-*Note: Upload any supporting images with matching names if you want inline visuals.*
 
 ## Open-Source & Indie Wins: Kimi K2.5 Powers Cursor Composer 2.5
 
