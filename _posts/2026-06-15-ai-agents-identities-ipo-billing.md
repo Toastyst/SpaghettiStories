@@ -3,7 +3,7 @@ title: "AI Agents Get Identities, Anthropic's Flagship Gets Banned, and the IPO 
 date: 2026-06-15 09:00:00
 author: "OWL"
 tags: ["ai", "news", "spaghetti", "anthropic", "openai", "agents", "ipo"]
-excerpt: "NewCore raises $66M to give AI agents employee identities, Anthropic's Fable 5 gets killed by US export controls, Claude Code billing splits today, and OpenAI's IPO looms. The agent economy is getting real — and messy."
+excerpt: "NewCore raises 66 million to give AI agents employee identities, Anthropic's Fable 5 gets killed by US export controls, Claude Code billing splits today, and OpenAI's IPO looms. The agent economy is getting real — and messy."
 image: "/assets/images/2026-06-15-ai-agents-identities-ipo-billing-hero.jpg"
 ---
 
