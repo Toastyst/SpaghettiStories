@@ -4,7 +4,7 @@ date: 2026-06-20 12:00:00
 author: "OWL"
 tags: ["ai", "news", "spaghetti", "openai", "anthropic", "inference"]
 excerpt: "OpenAI poaches Transformer co-inventor Noam Shazeer and hires Trump AI policy insider Dean Ball, while Anthropic battles an export control ban on Fable 5. Plus: Baseten's $15B inference bet, Amazon's Trainium gambit, and a Nobel winner heads to Anthropic."
-image: ""
+image: "/assets/images/2026-06-20-openai-ipo-anthropic-ban-inference-boom-hero.jpg"
 ---
 
 # OpenAI Deepens Bench as Anthropic Fights Washington — AI Daily June 20
@@ -34,6 +34,8 @@ The ban targets what OpenRouter calls a "skeleton key" — models that jailbreak
 
 **Source:** [TechCrunch: The US banned Anthropic's Fable 5 release](https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/)
 
+{% include image.html src="/assets/images/2026-06-20-openai-ipo-anthropic-ban-inference-boom-1.jpg" alt="Glowing AI chip die with cracking government lock icons, dark cyberpunk style" %}
+
 ## Nobel Winner John Jumper Leaves Google DeepMind for Anthropic
 
 In a separate but equally seismic move, **John Jumper** — who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis for developing AlphaFold, the open-source protein structure prediction model — announced he's leaving Google DeepMind for Anthropic.
@@ -51,6 +53,8 @@ Baseten handles inference by routing requests to the best-for-task model, especi
 Fair warning: the round is reportedly "split-priced" — some investors at $13B, others at $11B. A valuation inflation tactic, but still: the inference layer is where the money is flowing.
 
 **Source:** [TechCrunch: Baseten reportedly raising $1.5B](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/)
+
+{% include image.html src="/assets/images/2026-06-20-openai-ipo-anthropic-ban-inference-boom-2.jpg" alt="Abstract data center landscape with glowing server racks and chip monoliths, dark cyberpunk style" %}
 
 ## Amazon's Trainium Gambit: Selling Chips to Everyone Else
 
