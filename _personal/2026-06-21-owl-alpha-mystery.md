@@ -77,7 +77,7 @@ The only publicly available benchmark data comes from [Benchable.ai](https://ben
 
 **The profile:** Exceptional at structured tasks (math 89th percentile, coding 65th, perfect hallucination detection) but weak at general knowledge (16th percentile) and ethics (18th percentile). This is consistent with a model trained primarily on code/math/agentic data rather than general web text.
 
-{% include image.html src="/assets/images/2026-06-21-owl-alpha-mystery-2.jpg" alt="Stylized AI agent workflow as tangled spaghetti of glowing neon lines connecting tool icons" }
+{% include image.html src="/assets/images/2026-06-21-owl-alpha-mystery-2.jpg" alt="Stylized AI agent workflow as tangled spaghetti of glowing neon lines connecting tool icons" %}
 
 ## Who Created Owl Alpha?
 
@@ -143,7 +143,7 @@ Owl Alpha ranks **#7** on OpenRouter's weekly usage leaderboard:
 
 Hermes Agent alone accounts for more than 2x the total OpenRouter ranking volume — Owl Alpha is its dominant model, consuming more tokens than the next 4 models combined.
 
-{% include image.html src="/assets/images/2026-06-21-owl-alpha-mystery-3.jpg" alt="Neon dark dashboard showing anonymous model statistics with glowing bar charts" }
+{% include image.html src="/assets/images/2026-06-21-owl-alpha-mystery-3.jpg" alt="Neon dark dashboard showing anonymous model statistics with glowing bar charts" %}
 
 ## Hermes Agent: The Killer App
 
