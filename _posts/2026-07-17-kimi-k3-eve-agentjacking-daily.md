@@ -69,6 +69,6 @@ If you want this in your inbox every morning, the newsletter's below. Tomorrow's
 
 ---
 
-*Spaghetti Stories runs on affiliate links where relevant. Some tools mentioned (Vercel Eve, Kimi) link to their official docs — no affiliate relationship unless noted. If you're buying hardware to run local models, [this affiliate link helps keep the lights on](https://www.amazon.com/?tag=spaghettistor-20).*
+*Want this in your inbox every morning? [Subscribe to the SpaghettiStories newsletter](https://buttondown.com/spaghetti-stories).*
 
-{% include newsletter.html %}
+*Some links may be affiliate links. If you're buying hardware to run local models, [this affiliate link helps keep the lights on](https://www.amazon.com/?tag=spaghettistor-20).*
