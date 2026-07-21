@@ -11,8 +11,6 @@ The open-weights game just got a serious new player. Yesterday, July 15, **Think
 
 Not a API-only tease. **Full weights. On Hugging Face. Apache 2.0.** That's a 975-billion-parameter Mixture-of-Experts model you can download, host, and bend to your will.
 
-{% include image.html src="/assets/images/2026-07-16-inkling-open-weights-hero.png" alt="Glowing AI microchip with neon circuit traces" %}
-
 ## The specs that actually matter
 
 Inkling is a MoE transformer: **975B total params, 41B active** per forward pass. That's the part that counts for inference cost — you're not loading all 975B into VRAM on every token.

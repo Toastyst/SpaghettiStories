@@ -9,8 +9,6 @@ image: "/assets/images/2026-07-17-kimi-k3-eve-agentjacking-daily-hero.png"
 
 Big day for the agent-first crowd. Three stories landed in the last 24 hours that actually matter if you build with these tools: a frontier open-source model that trades blows with the closed giants, a production-grade agent framework going open, and a security hole that should make you reconsider how much trust you hand your coding agent.
 
-{% include image.html src="/assets/images/2026-07-17-kimi-k3-eve-agentjacking-daily-hero.png" alt="Glowing open-source AI cube with neural nodes" %}
-
 ## Kimi K3: open weights, 2.8 trillion parameters, and it's not slouching
 
 Moonshot AI (the Beijing lab backed by Alibaba) dropped **Kimi K3** on July 16 — a 2.8-trillion-parameter model they're calling the largest open-source model in the world. We're talking roughly 75% larger than DeepSeek V4 Pro. The headline specs:
