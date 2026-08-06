@@ -21,7 +21,7 @@ From Meta's [launch post](https://research.meta.ai/blog/introducing-muse-code-an
 | --- | --- |
 | Product | **Muse Code** — terminal coding agent, beta, macOS + Linux |
 | Model | **Muse Spark 1.2** — coding-focused update, co-trained with the harness |
-| Install | `curl -fsSL https://dev.meta.ai/install.sh \| bash` (one-liner) |
+| Install | one-liner from Meta docs (`dev.meta.ai/install.sh`) |
 | Core loop | plan → write → validate across large repos |
 | Parallelism | sub-agents in **isolated worktrees**; working copy left alone |
 | Persistence | async **background agents** stay alive for the whole session |
