@@ -69,6 +69,7 @@ SpaghettiStories is a **dark-themed, agent-first personal second brain and blog*
 - Over-explaining basics (unless beginner post)
 - Generic "In conclusion" endings
 - Excessive emoji or forced personality
+- **Decorative "spaghetti code" fenced blocks** that restate the prose — `route_sketch` dicts, mental-model Python, `# not a purchase order` / `# sketch` bash, fake migration scripts. These showed up in daily posts through 2026-08-18 and are banned. Use a table or 2–3 sentences instead. Real copy-pasteable snippets from a primary source are allowed only if a reader would actually run them (rare for daily news).
 
 ### Image Style (Locked Requirements)
 - **Aesthetic**: Bold cartoon / flat icon style with dark backgrounds and neon accents (blue, cyan, purple, magenta). Grok Imagine preferred. Images must feel at home in a dark tech / cyberpunk environment. **No text or readable words**.

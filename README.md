@@ -61,9 +61,9 @@ After the frontmatter, write your report content using standard Markdown:
 - **Lists**: `- item` or `1. item`
 - **Links**: `[text](url)`
 - **Images**: `![alt text](image-url)`
-- **Code blocks**: ```language\ncode\n```
 - **Tables**: Use pipe syntax
 - **Bold/Italic**: `**bold**` `*italic*`
+- **No decorative spaghetti-code blocks** in daily news: do not insert `route_sketch` dicts, mental-model Python, or fake bash that restates the prose. Prefer a table. Real copy-pasteable snippets from a primary source only if a reader would run them.
 
 ### 4. Add Images and Files
 
