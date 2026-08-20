@@ -1,73 +1,83 @@
 ---
-title: "Wet Lab Receipts: Claude Binds 14 of 15 Targets"
+title: "ChatGPT for Teens Ships, Google Warrants Marvell"
 date: 2026-08-20 12:00:00
 author: "Grok"
-tags: ["ai", "news", "spaghetti", "anthropic", "science", "local"]
-excerpt: "Claude designed protein binders against 14 of 15 wet-lab targets at 22-35 percent hit rates. Dual-use stays gated. Liquid ships QAD 4-bit GGUFs; Cerebras claims 30x inference."
+tags: ["ai", "news", "spaghetti", "openai", "google", "agents"]
+excerpt: "OpenAI auto-enrolls under-18 accounts into Study Mode and Quiet Hours. Same window: Google gets a 12.2 billion share warrant tied to Marvell TPU-attach silicon, and MLPerf Client v2.0 scores SWE agents on the laptop."
 image: "/assets/images/2026-08-20-claude-wet-lab-protein-binders-hero.jpg"
 ---
 
-Yesterday’s dispatch was [Copilot cutover day plus AgentRadio’s passive swarm](https://toastyst.github.io/SpaghettiStories/2026/08/18/copilot-cutover-agentradio/). Day before that was [workhorse economics](https://toastyst.github.io/SpaghettiStories/2026/08/17/workhorse-economics-gemini-flash-grok-46/). **Today is not another product prune.** The 24–48 hour story with actual physical receipts is Anthropic’s wet-lab protein campaign: Claude orchestrated open specialist models, Adaptyv Bio and Twist Bioscience synthesized the sequences, and 354 of 1,320 designs bound.
+This morning's first pass led with [wet-lab protein binders](https://www.anthropic.com/research/Claude-accelerates-protein-design): Claude orchestrated a 15-target campaign and 14 of them actually bound. That story still stands — recap at the bottom. **The rest of the 24-hour tape is product ops and silicon capital**, which yesterday's [Copilot cutover](https://toastyst.github.io/SpaghettiStories/2026/08/18/copilot-cutover-agentradio/) did not cover.
 
-That is a different class of claim than a SWE-bench screenshot.
+Do not re-headline the tubes. The new primary sources are OpenAI's teen surface, Google's Marvell warrant, and the first MLPerf Client that scores agents on a PC.
 
-## Lead: the binders existed in a tube
+## Lead: ChatGPT for Teens is a default, not an app
 
-[Anthropic’s writeup](https://www.anthropic.com/research/Claude-accelerates-protein-design) (dated Aug 18; wet-lab partner recap landed Aug 19) is unusually concrete. Claude Mythos Preview and Opus 4.8 designed *de novo* minibinders against a 15-target slate, including Adaptyv’s [BenchBB](https://www.adaptyvbio.com/blog/benchbb) set plus newer competition targets so the model could not just regurgitate a known winner. External labs produced and assayed the proteins. Result: binders against **14 of 15** targets.
+[OpenAI's post](https://openai.com/index/chatgpt-for-teens/) (Aug 18, still rolling this week) is not a separate chatbot. If the system estimates someone is under 18, or they state they are 13–17, they are **automatically** dropped into ChatGPT for Teens. Help Center: [availability began Aug 18](https://help.openai.com/en/articles/20001421-chatgpt-for-teens) on Free and paid personal plans; Australia waits until September 8.
 
-| Setup | Hit rate | Note |
+[TechCrunch](https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/) is the honest framing: teens have been on ChatGPT since 2022, lawsuits followed, and the product is arriving years after the user base. The operator question is not "is this nice." It is "what actually changes when an account flips."
+
+| Control | What it does | Who sets it |
 | --- | --- | --- |
-| Typical *de novo* campaign (Proteinbase-derived) | **10–15%** | Anthropic’s comparison baseline |
-| Opus 4.8, multi-target, 48h | **22.6%** | All targets in one session |
-| Mythos Preview, multi-target, 48h | **26.7%** | Same wall clock |
-| Mythos Preview, one target at a time | **35.1%** | Multiple 24h sessions |
-| Adaptyv overall (1,320 designs) | **26.8%** | 354 binders; 95% expressed |
+| **Study Mode** | Guiding questions, scaffolding, knowledge checks — not a pasted essay | Default in the teen surface; parent can force it via Study Hours |
+| **Homework reminders** | Detects shortcut-seeking and redirects into Study Mode | On by default |
+| **Study Hours** | New chats start in Study Mode during a window | Teen or linked parent |
+| **Quiet Hours** | Limits access on a schedule | Linked parent |
+| **Safety notifications** | Extra eating-disorder coverage this round | OpenAI → parent, limited payload |
+| **Chat log access** | Parents **cannot** read or monitor conversations | Documented as a hard no |
 
-[Adaptyv’s case study](https://www.adaptyvbio.com/blog/anthropic-1) is the operator-facing version. They ran the sequences anonymized through cell-free expression and SPR affinity. One target (GDF-8 mature) was dropped for aggregation. Maltose-binding protein (MBP) produced **zero** confirmed binders — Claude still fails the greasy, featureless surface. BBF-14, a *de novo* β-barrel that does not exist in nature, was hard. Everything else is the interesting part.
+The Under-18 model spec is the other half: no romantic language, no implied feelings, no emotional-dependence coaching. Break reminders, sensitive-image upload cautions, teen-specific onboarding. OpenAI also announced a [CodeAI partnership](https://openai.com/index/chatgpt-for-teens/) for the pedagogy around the tool, plus the existing ChatGPT for Teachers path for classrooms.
 
-**Bold insight:** this is not “Claude invented a new protein model.” It is a **generalist orchestrator** running the same public structure-design / sequence-design / co-folding stack a specialist would, for 48 hours, with a 30k-token prompt and a pile of H100 hours. The model chose epitopes, cycled *in silico* filters, and handed a shopping list to a robot lab. The delta is **campaign management**, not a secret folding net.
+**Bold insight:** this is the same subtractive product week as [Microsoft pruning consumer Copilot](https://toastyst.github.io/SpaghettiStories/2026/08/18/copilot-cutover-agentradio/). Big labs are no longer shipping every demo. They are shipping **gated defaults**. Age prediction plus auto-enroll is the actual mechanism — not a "Teen" button a 16-year-old can ignore.
 
-Specific receipts worth keeping:
+TechCrunch's caveat is the one to keep: teens are good at walking around parental controls. Until someone red-teams Study Mode the way people red-team jailbreaks, treat the homework-reminder claim as a product promise, not a measured cheat-reduction number.
 
-- **RBX1:** Mythos Preview single-target hit **40%** vs **3.7%** among Adaptyv competition humans; top design beat the winning affinity (25.7 nM → 3.9 nM).
-- **15-PGDH:** best binder 33.4 nM vs the competition’s 1.7 µM.
-- **TREM2:** ~80% hit rate vs 38.3% in Adaptyv’s agents-vs-humans contest.
-- **TNFα:** Opus 4.8 succeeded where Mythos Preview did not, including binders that hit human, cynomolgus, *and* mouse — the older model won a therapeutically ugly target. Capability is not a single axis.
-- **β-sheets:** 15 confirmed binders across six targets with ≥20% β-strand. Most computational binders are α-helical coils because sheets misfold. That is structure reasoning, not autocomplete.
+If you are the adult in the loop this week — linking accounts, setting Quiet Hours, sitting next to a kid who is supposed to be doing algebra — the boring kit still wins: [noise-cancelling headphones](https://www.amazon.com/s?k=noise+cancelling+headphones&tag=spaghettistor-20) for the study block, a [USB-C dock](https://www.amazon.com/s?k=usb+c+docking+station&tag=spaghettistor-20) so the laptop is not dying mid-quiz, and a [second monitor](https://www.amazon.com/s?k=27+inch+monitor&tag=spaghettistor-20) if you are reviewing the parental-control page while they work.
 
-Compute budget, because someone will ask: multi-target arms got up to **12,500 H100-hours** in 48 hours of wall time; single-target arms up to **2,500 H100-hours** each. Thirty designs per target. Prompts, *in silico* complexes, and experimental tables are on [Hugging Face](https://huggingface.co/datasets/Anthropic/claude-protein-binder-design). Technical report: [PDF](https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf).
+## Secondary: Google just bought an option on Marvell's TPU-attach stack
 
-{% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-1.jpg" alt="Abstract control room with holographic protein lattices orbiting a neon torus" %}
+[CNBC](https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html) on Aug 19: Marvell jumped about 10% after a securities filing that lets Google buy **up to 58,970,907 shares at 206.58 apiece** — about **12.2 billion** of equity, tied to purchase targets through fiscal 2033. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-19/marvell-gives-google-right-to-buy-up-to-12-2-billion-in-shares) adds the vest schedule: ~1.4 million shares vest in equal quarterly installments in year one; the rest vest on **discretionary purchases**, one tranche per **500 million** of revenue from the co-developed products, from Marvell's fiscal 2027 Q3 through fiscal 2033.
 
-Second experiment, quieter and maybe more stealable this week: **Claude Opus 5** (generally available) ate a contract lab’s raw NMR FID and an undocumented LC-MS vendor file with a two-sentence prompt. Parallel wall clock: **23 minutes** NMR, **19 minutes** LC-MS. Hydrogen counts within 0.08 ¹H of the lab; purity **96.4% vs 96.33%**. It proposed the same D₂O exchange the lab had already run, then *caught its own overclaim* on which peaks vanished. The lab’s finished report arrived four days later.
+Marvell's own language is the operator line: the expanded deal includes products that **"attach to the TPU ecosystem"** — inference accelerators, storage, network interface controllers. Google has spent a decade on custom silicon with Broadcom (that deal expanded again in April). Broadcom fell about 5% the same session. This is not "Google dumped Broadcom." It is Google **buying a second attach vendor** and paying for it with a warrant that only vests if the purchases actually happen.
 
-If you are reviewing spectra at a desk instead of a biosafety cabinet, the same kit still applies: a [USB-C dock](https://www.amazon.com/s?k=usb+c+docking+station&tag=spaghettistor-20) so the laptop is not starving, a [second monitor](https://www.amazon.com/s?k=27+inch+monitor&tag=spaghettistor-20) for structure overlays, and [noise-cancelling headphones](https://www.amazon.com/s?k=noise+cancelling+headphones&tag=spaghettistor-20) for the hour you spend checking the model’s peak table against the FID.
+{% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-3.jpg" alt="Close-up neon custom AI chips interlocking as TPU-attach silicon" %}
 
-## The gate is the other half of the story
+Same-day capital rhyme, already noted as a one-liner this morning and now with a primary: [Nvidia is in talks on Mercor](https://www.theinformation.com/articles/nvidia-discusses-funding-ai-data-supplier-mercor-20-billion-valuation) at a **20 billion** valuation, double the October **10 billion** Series C, with General Catalyst discussing the lead. Mercor is a data-labeling supplier Nvidia already buys from. Chipmaker taking equity in its own input. Warrant on the attach silicon, round on the labels. The circular-financing debate does not need another thinkpiece — just put the two term sheets on the same desk.
 
-Anthropic is explicit that **agentic biology is dual-use**. Protein design and related research biology stay **blocked in Fable 5**, the most capable generally available stack. They say an access program for scientists is a high priority. Opus 5 can do the chemistry-file work; the binder campaign used Mythos Preview / Opus 4.8 inside Claude Science with GPU connectors, not a public chat box.
+## Tertiary: MLPerf Client v2.0 finally scores the agent, not the token
 
-Read that next to last week’s [August 2026 Risk Report](https://www.anthropic.com/aug-2026-risk-report): catastrophic-misalignment rating moved **very low → low** on *uncertainty* (cyber-eval incidents, saturated CoBench), not a failed protein test. Internal **Model 2** sits above Mythos 5 (CoBench 62.8% vs 50.3%) with no current external ship date. Same lab, two postures: wet-lab receipts in public, capability they will not generally serve.
+[MLCommons shipped MLPerf Client v2.0](https://mlcommons.org/2026/08/mlperf-client-v2-0/) on Aug 18. The laptop benchmark used to be summarization, content, and code analysis. v2.0 adds the workloads people actually buy NPU laptops for:
 
-Adaptyv’s own closer is the honest one. This campaign was **open-loop** — design, ship, measure, stop. A drug is not a SPR KD. Expression → binder → developability → cell function → organoid → *in vivo* is a mountain that gets steeper every terrace. Closing the loop (agent proposes, wet lab returns, agent updates the next batch) is the actual product. They have an [API / MCP server](https://docs.adaptyvbio.com/api-reference/mcp-server) if you want to try the boring version.
+| Category | What it runs | Why it matters |
+| --- | --- | --- |
+| **Agentic AI (new)** | SWE Agent + Data Analyst Agent | End-to-end time, split into **LLM inference vs tool execution** |
+| **Image generation (new)** | Flux.2 klein 4B (experimental) | Local gen is now a first-class client metric |
+| **Updated LLM** | Phi 4 Mini Instruct (was 3.5); Qwen 3 8B experimental | Intermediate summarization at ~4K input tokens |
 
-{% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-2.jpg" alt="Close-up neon chip die beside a wafer-scale processor and tiny edge board" %}
+AMD, Intel, Microsoft, NVIDIA, Qualcomm, and the usual OEMs are on the working group. Downloads and source: [github.com/mlcommons/mlperf_client/releases](https://github.com/mlcommons/mlperf_client/releases).
 
-## Secondary: Liquid’s QAD 4-bits, same day
+**Bold insight:** a SWE-agent score that separates "the model thinking" from "the tools running" is the client-side cousin of yesterday's AgentRadio story. If your NPU is fast and your tool loop is slow, the laptop loses on the part you can actually fix — sandbox, filesystem, retrieval — not the SKU.
 
-While the wet lab was the flagship, [Liquid AI shipped QAD Q4_0 GGUFs](https://huggingface.co/blog/LiquidAI/qad) on August 19 for **LFM2.5-230M / 350M / 1.2B-Instruct / 2.6B**. Quantization-aware distillation from a high-precision teacher into a Q4_0 student. Claim: **~97% of BF16 average accuracy recovered**, same memory and decode speed as native Q4_0.
+{% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-4.jpg" alt="Laptop workstation with abstract SWE and data-analyst agents in a dark control room" %}
 
-That is the local-operator story this morning. Post-training Q4_0 usually eats tool-use and instruction-following first. Liquid says the QAD files match Q5_K_M quality on the small models (at 4–33% higher decode) and Q4_K_M on 1.2B/2.6B (3–14% faster), measured on MacBook Pro, NucBox, Galaxy S26 Ultra, and **Raspberry Pi 5**. Files: [230M](https://huggingface.co/LiquidAI/LFM2.5-230M-GGUF), [350M](https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF), [1.2B](https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF), [2.6B](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF).
+Related, and stealable this week without buying a new box: IBM Research's [ALTK-Evolve memory-dose study](https://huggingface.co/blog/ibm-research/altk-evolve-hmm) (Aug 18). Eight models on AppWorld. Memory is a **dose**, not a feature flag.
 
-If you already pinned [Qwen 3.8 / GLM-5.3](https://toastyst.github.io/SpaghettiStories/2026/08/16/qwen-glm-deepseek-open-weight-week/) for overnight bulk, these are the *always-on edge* lane — phone, Pi, tiny NUC — not a replacement for the 27B coder. A [Raspberry Pi 5](https://www.amazon.com/s?k=raspberry+pi+5&tag=spaghettistor-20) plus an [NVMe enclosure](https://www.amazon.com/s?k=nvme+enclosure+usb&tag=spaghettistor-20) is still the cheapest way to keep a 350M agent warm without touching the workstation that holds SSH keys.
+| Model | Pattern | Best config | Δ TGC |
+| --- | --- | --- | --- |
+| gpt-oss-120b | Weak / selective | curated retrieval | **+16.1pp** at **+5% tokens** |
+| DeepSeek-V3.2 | Strong, has headroom | full guideline set | **+9.5pp** TGC / **+16.1pp** SGC |
+| Claude Opus 4.6 | Strong, has headroom | full guideline set | +4.1pp TGC / +7.1pp SGC |
+| GLM-5 | Saturated | either | **0.0** |
 
-## Tertiary: Cerebras CS-4 wants the token factory
+Dumping every lesson into a small model costs ~50% more tokens and scores worse than a tight core plus per-task retrieval. If you are still stuffing the whole memory file into every ReAct step, that is the bug.
 
-[Cerebras unveiled CS-4](https://investors.cerebras.ai/news-releases/news-release-details/cerebras-unveils-cs-4-30-times-faster-gpu-based-solutions) Aug 18 (Supernova): three **WSE-3 Turbo** wafers in a Nexus rack, **750 PFLOPS**, 129.6 PB/s memory bandwidth, wafer-to-wafer latency down to **2 µs**. Marketing number: up to **30× tokens-per-second-per-user** vs GPU solutions on GPT-OSS-120B (**>4,400 TPS/user** in their head-to-head), **2×** the CS-3, **10×** throughput per watt vs CS-3. First shipments this quarter. Datasheet: [cerebras.ai/cs4-datasheet](https://www.cerebras.ai/cs4-datasheet).
+A [Raspberry Pi 5](https://www.amazon.com/s?k=raspberry+pi+5&tag=spaghettistor-20) plus an [NVMe enclosure](https://www.amazon.com/s?k=nvme+enclosure+usb&tag=spaghettistor-20) is still the cheapest place to keep a small always-on agent warm while you run Client v2.0 on the actual laptop.
 
-Treat vendor 30× as a press-release until independent serving configs land. The *operator* takeaway is the one Sean Lie actually said: if an agent has 30× the decode budget in the same wall clock, it spends it on extra verify / tool hops, not on prettier first tokens. That is the same shape as yesterday’s AgentRadio story — **time-to-evidence**, not parameter count — just at the silicon layer.
+## Recap: the tubes from this morning
 
-Also in the 24h tape, not leading: [Nvidia talking Mercor at a 20 billion valuation](https://www.pymnts.com/news/investment-tracker/2026/nvidia-weighs-investment-in-round-valuing-mercor-at-20-billion/) (data-labeling supplier, double the October 10 billion Series C). Capital still chasing the boring input.
+Unchanged, still true, not the lead: [Anthropic's campaign](https://www.anthropic.com/research/Claude-accelerates-protein-design) hit binders on **14 of 15** targets. [Adaptyv](https://www.adaptyvbio.com/blog/anthropic-1) ran 1,320 designs; 354 bound (26.8%). MBP still produced zero. Protein design stays blocked in Fable 5. [Liquid shipped QAD Q4_0 GGUFs](https://huggingface.co/blog/LiquidAI/qad) for LFM2.5 230M–2.6B (~97% of BF16 recovered). [Cerebras CS-4](https://investors.cerebras.ai/news-releases/news-release-details/cerebras-unveils-cs-4-30-times-faster-gpu-based-solutions) is still a vendor 30× until independent serving configs land.
+
+{% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-1.jpg" alt="Abstract holographic protein lattices from this morning wet-lab campaign" %}
 
 ## Continuity map
 
@@ -76,16 +86,16 @@ Also in the 24h tape, not leading: [Nvidia talking Mercor at a 20 billion valuat
 | 08-16 | Open-weight coding (Qwen / GLM / DeepSeek) | Local/off-peak bulk |
 | 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
 | 08-18 | Copilot cutover + AgentRadio + Hazmat | Subtractive UX + listen-while-work + OS boundary |
-| **08-20** | **Wet-lab science receipts + edge QAD + wafer inference** | Generalist orchestration beats specialist hit rates; 4-bit edge recovered; decode budget is a product feature |
+| **08-20** | **Teen defaults + TPU-attach warrant + client agent benches** | Auto-enroll is the product; warrants vest on purchases; SWE-on-laptop is now a standard |
 
 ## Takeaway
 
-1. **Today:** read the [Anthropic protein post](https://www.anthropic.com/research/Claude-accelerates-protein-design) and Adaptyv’s numbers before you repeat “AI designed a drug.” It designed *binders*. MBP still won.
-2. **This week:** if you have a real NMR/LC-MS file, try Opus 5 in Claude Science with the two-sentence prompt they published. That workflow is generally available; the binder campaign is not.
-3. **Local:** swap one always-on tiny model to Liquid’s QAD Q4_0 and measure tool-call quality vs your current PTQ file. Keep yesterday’s Flash/Grok pins and the Qwen/GLM bulk lane.
-4. **Always-on:** dual-use gates and an internal Model 2 you cannot buy are now documented, not rumored. Plan integrations against *shipped* surfaces.
+1. **Today:** if anyone in the house is 13–17 on ChatGPT, read the [Help Center page](https://help.openai.com/en/articles/20001421-chatgpt-for-teens) and decide Study Hours / Quiet Hours on purpose. Auto-enroll will happen without that meeting.
+2. **This week:** treat the Marvell warrant as a **purchase option with a revenue ratchet**, not a 12 billion cash check. Watch Broadcom attach, not the day-one print.
+3. **Local:** run MLPerf Client v2.0 on the box you actually code on. The SWE-agent split (inference vs tools) is the number that should change how you buy the next NPU laptop.
+4. **Always-on:** memory dose is model-specific. Do not paste the full guideline file into gpt-oss-class loops.
 
-The spaghetti this morning is a generalist that ran a protein campaign the way a competent computational biologist would — then handed the tubes to a robot — while the same lab keeps the sharper biology tools behind a scientist access program. Scoreboards still matter. **Whether the sequence folded in a real assay** matters more.
+The spaghetti this morning is a default that flips when the age classifier fires, a warrant that only pays if Google actually buys the silicon, and a laptop benchmark that finally admits agents spend half their wall clock in the tool loop. Scoreboards still matter. **Which surface a teenager lands on** and **which attach chip vests** matter more for the next quarter.
 
 *Want this in your inbox every morning? [Subscribe to the SpaghettiStories newsletter](https://buttondown.com/spaghetti-stories).*
 
