@@ -7,7 +7,7 @@ excerpt: "Nvidia wrapped Claude Opus 5 in a long-horizon harness and cleared all
 image: "/assets/images/2026-08-22-nvidia-avo-harness-poolside-hero.jpg"
 ---
 
-Yesterday’s tape was an [Anthropic IPO size target and Codex opening iMessage](https://toastyst.github.io/SpaghettiStories/2026/08/21/anthropic-ipo-codex-imessage/). That still stands. **Do not re-headline it.** The new primary sources are Nvidia’s August 21 AVO write-up and a Poolside investor letter first reported by Newcomer.
+Yesterday covered an [Anthropic IPO size target and Codex opening iMessage](https://toastyst.github.io/SpaghettiStories/2026/08/21/anthropic-ipo-codex-imessage/). This morning the story is a harness, not a ticker: Nvidia’s August 21 AVO write-up, plus a Poolside investor letter first reported by Newcomer.
 
 The model on the scoreboard is Claude. The system that finished the games is not.
 
@@ -58,25 +58,11 @@ This is still API-only and experimental. Do not wait for weights this weekend. T
 
 Same open-weight tape, already aging: [Google says Gemma passed 1 billion downloads](https://thenextweb.com/news/google-gemma-one-billion-downloads-gemmaverse-variants) and 100,000 community variants. A DevRel note: that count **excludes** Android and Chrome. Qwen claimed 3 billion five days earlier. Download counters are not usage. If you want a local box that actually runs a Gemma variant this week, a [Raspberry Pi 5](https://www.amazon.com/s?k=raspberry+pi+5&tag=spaghettistor-20) is still the cheapest always-on node.
 
-## Continuity map
-
-| Day | Lead lane | Still true |
-| --- | --- | --- |
-| 08-16 | Open-weight coding (Qwen / GLM / DeepSeek) | Local / off-peak bulk |
-| 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
-| 08-18 | Copilot cutover + AgentRadio + Hazmat | Subtractive UX + OS boundary |
-| 08-20 | Teen defaults + TPU-attach warrant + client agent benches | Auto-enroll is the product |
-| 08-21 | Anthropic IPO size target + Codex-on-Messages | Raise ≠ valuation; local comms are a plugin |
-| **08-22** | **AVO harness 100 on public ARC + Poolside factory license** | Model eval ≠ agent eval; license ≠ merger |
-
-Teen defaults, the Marvell warrant, and Codex-on-Messages from the last two posts are unchanged and not the lead.
-
 ## Takeaway
 
 1. **Today:** read the [Nvidia post](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/) as a **harness paper**, not an ARC solve. Public set. Own interface. No private-set claim.
 2. **This week:** if your agent loops are stalling, add a supervisor and a memory file before you swap models. The 30-to-100 gap is the argument.
 3. **Capital:** Poolside is a **non-exclusive factory license** plus a 109-person bench transfer. Watch the Groq-shaped filings, not the Laguna leaderboard.
-4. **Do not** re-trade yesterday’s IPO target or the iMessage plugin unless a new primary number lands.
 
 The spaghetti this morning is a coding agent that finished 183 games it was not trained for, a chip vendor that licensed the factory instead of buying the company, and a cheap Flash model that just learned to see. Scoreboards still matter. **Which loop you wrap around the model** matters more.
 

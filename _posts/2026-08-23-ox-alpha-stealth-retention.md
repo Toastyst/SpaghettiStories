@@ -7,7 +7,7 @@ excerpt: "A stealth model with a million-token window is burning trillions of fr
 image: "/assets/images/2026-08-23-ox-alpha-stealth-retention-hero.jpg"
 ---
 
-Yesterday’s tape was [Nvidia AVO clearing the public ARC set and a six billion Poolside factory license](https://toastyst.github.io/SpaghettiStories/2026/08/22/nvidia-avo-harness-poolside/). That still stands. **Do not re-headline it.** The new primary is a nameless coding model that spent the weekend eating agent traffic.
+Yesterday was [Nvidia AVO on the public ARC set and a six billion Poolside factory license](https://toastyst.github.io/SpaghettiStories/2026/08/22/nvidia-avo-harness-poolside/). This morning the unsigned model is the story.
 
 Someone parked a frontier checkpoint on OpenRouter and declined to sign it.
 
@@ -54,32 +54,17 @@ Same 48-hour window, different layer. [OpenAI cut GPT-5.6 Sol](https://community
 
 That cut only makes sense next to the free ghost. Sol is still the named workhorse. Ox Alpha is the unnamed stress test. If your weekend loop can tolerate an anonymous keeper, the price is zero. If it cannot, Sol just got less embarrassing against Grok 4.6 and the cheap Chinese APIs.
 
-Harness rhyme from earlier this week, still unused as a lead: [TrueFoundry open-sourced TrueForge](https://www.truefoundry.com/blog/engineering/trueforge-open-source-agent-harness/) under MIT. [VentureBeat](https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents) has the vendor numbers. Same 14 Enterprise-Bench tasks: GLM-5.2 on TrueForge at **2.90** versus Opus 4.8 on Claude Managed Agents at **11.80** (about **75 percent** cheaper); same Opus backbone still about **30 percent** cheaper (**8.50** vs **11.80**). Those are the company’s benches. The architectural claim is the useful one: sandbox is a tool, not a permanent jail, and context gets compacted instead of re-sent.
+[TrueFoundry open-sourced TrueForge](https://www.truefoundry.com/blog/engineering/trueforge-open-source-agent-harness/) under MIT. [VentureBeat](https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents) has the vendor numbers. Same 14 Enterprise-Bench tasks: GLM-5.2 on TrueForge at **2.90** versus Opus 4.8 on Claude Managed Agents at **11.80** (about **75 percent** cheaper); same Opus backbone still about **30 percent** cheaper (**8.50** vs **11.80**). Those are the company’s benches. The architectural claim is the useful one: sandbox is a tool, not a permanent jail, and context gets compacted instead of re-sent.
 
 Yesterday Nvidia showed a **closed** harness turning a 30-percent model eval into a 100 on a public game set. Today an **open** harness is selling cost-per-completed-task. Same week, same layer of the stack.
 
 If you are going to run either loop overnight, a [USB-C dock](https://www.amazon.com/s?k=usb+c+docking+station&tag=spaghettistor-20) and a [second monitor](https://www.amazon.com/s?k=27+inch+monitor&tag=spaghettistor-20) still beat a brown-out mid-eval.
-
-## Continuity map
-
-| Day | Lead lane | Still true |
-| --- | --- | --- |
-| 08-16 | Open-weight coding (Qwen / GLM / DeepSeek) | Local / off-peak bulk |
-| 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
-| 08-18 | Copilot cutover + AgentRadio + Hazmat | Subtractive UX + OS boundary |
-| 08-20 | Teen defaults + TPU-attach warrant + client agent benches | Auto-enroll is the product |
-| 08-21 | Anthropic IPO size target + Codex-on-Messages | Raise ≠ valuation; local comms are a plugin |
-| 08-22 | AVO harness 100 on public ARC + Poolside factory license | Model eval ≠ agent eval; license ≠ merger |
-| **08-23** | **Ox Alpha stealth preview + prompt custody** | Free week ≠ audited win; unsigned keeper ≠ no logs |
-
-AVO, Poolside, the IPO target, and Codex-on-Messages from the last two posts are unchanged and not the lead.
 
 ## Takeaway
 
 1. **Today:** try Ox Alpha on **throwaway** tasks before August 27 if you want the free window. Read the [OpenRouter card](https://openrouter.ai/stealth/ox-alpha) as a custody notice, not a system card.
 2. **Do not** treat the 80 percent DeepSWE clip as a leaderboard. Ten tasks is a vibe. 63 percent on a fuller run is still interesting. Neither is official.
 3. **Pricing:** Sol at 4 / 20 through November 21 is the named alternative when the ghost week ends.
-4. **Do not** re-trade yesterday’s ARC 100 or the Poolside license unless a new primary number lands.
 
 *Want this in your inbox every morning? [Subscribe to the SpaghettiStories newsletter](https://buttondown.com/spaghetti-stories).*
 

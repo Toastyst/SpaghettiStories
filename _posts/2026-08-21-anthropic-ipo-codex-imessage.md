@@ -7,7 +7,7 @@ excerpt: "Anthropic is preparing a public filing as soon as month-end that peopl
 image: "/assets/images/2026-08-21-anthropic-ipo-codex-imessage-hero.jpg"
 ---
 
-Yesterday's tape was [teen defaults, a Marvell TPU-attach warrant, and a laptop SWE-agent bench](https://toastyst.github.io/SpaghettiStories/2026/08/20/claude-wet-lab-protein-binders/). That still stands. **Do not re-headline it.** The new primary sources are a Bloomberg-sourced Anthropic IPO size target and OpenAI's Aug 20 Codex changelog.
+Yesterday covered [teen defaults, a Marvell TPU-attach warrant, and a laptop SWE-agent bench](https://toastyst.github.io/SpaghettiStories/2026/08/20/claude-wet-lab-protein-binders/). Today the tape splits: a Bloomberg-sourced Anthropic IPO size target, and OpenAI's Aug 20 Codex changelog.
 
 Capital is trying to print a Claude listing that matches a rocket company. The coding agent on your Mac just asked to read your texts.
 
@@ -59,26 +59,13 @@ Same changelog, three more surfaces:
 
 If you turn this on, treat Messages like prod credentials. Revoke when you are done. A [privacy screen](https://www.amazon.com/s?k=laptop+privacy+screen&tag=spaghettistor-20) is theater next to "Codex may send without a prompt if you enabled persistent approval." An [external SSD](https://www.amazon.com/s?k=external+ssd&tag=spaghettistor-20) for local clones still beats letting the agent rummage iMessage for a ticket number.
 
-## Continuity: the desk vs the S-1
-
 {% include image.html src="/assets/images/2026-08-21-anthropic-ipo-codex-imessage-2.jpg" alt="Dark control room with local data vaults and sealed message capsules" %}
-
-| Day | Lead lane | Still true |
-| --- | --- | --- |
-| 08-16 | Open-weight coding (Qwen / GLM / DeepSeek) | Local/off-peak bulk |
-| 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
-| 08-18 | Copilot cutover + AgentRadio + Hazmat | Subtractive UX + OS boundary |
-| 08-20 | Teen defaults + TPU-attach warrant + client agent benches | Auto-enroll is the product; warrants vest on purchases |
-| **08-21** | **Anthropic IPO size target + Codex-on-Messages** | Raise ≠ valuation; local comms are now a plugin |
-
-Wet-lab binders, Liquid QAD GGUFs, and Cerebras CS-4 from [yesterday's recap](https://toastyst.github.io/SpaghettiStories/2026/08/20/claude-wet-lab-protein-binders/) are unchanged and not the lead.
 
 ## Takeaway
 
 1. **Today:** the Anthropic story is a **raise-size target** and a **month-end filing window**, sourced to people familiar — not an S-1. Watch the credit facility and super-voting language, not the 75 billion headline.
 2. **On the Mac:** if Codex can see Messages, decide **persistent approval** on purpose. The known-issue note about tasks disabling prompts is the actual changelog.
 3. **Snapshots:** review before you paste a Codex share URL. Redaction is pattern-based. Paths survive.
-4. **Do not** re-trade yesterday's teen surface or the Marvell warrant unless a new primary number lands.
 
 The spaghetti this morning is a lab that wants a rocket-company IPO and a coding agent that wants your iMessage history. One of those needs an S-1. The other needs a checkbox you should not leave on.
 

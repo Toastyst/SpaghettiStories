@@ -23,15 +23,6 @@ Microsoft is merging the consumer Copilot surface with the Microsoft 365 Copilot
 
 Personal vs work/school accounts stay separate under org controls. Chat history and most content migrate; mobile needs the updated app. Files from the stand-alone consumer app move toward OneDrive during the transition. Microsoft's pitch is simpler navigation and one place to jump from chat into Word/Excel/Outlook — the same consolidation wave as Claude folding Cowork into Chat and OpenAI folding Operator into ChatGPT.
 
-```text
-# mental model — not a migration script
-if user.surface == "consumer_copilot_legacy":
-    expect.missing = ["group_chat", "podcasts", "labs", "deep_research_consumer", "mico"]
-    expect.keep = ["chat", "images", "file_upload", "m365_jump"]
-if user.seat == "m365_pro":
-    deep_research_replacement = "Researcher"  # check tenant docs
-```
-
 **Bold insight:** big-lab AI product strategy in mid-2026 is **subtractive**. The bill for "ship every demo" showed up as confused surfaces. Cutover day is the real story — not another model card.
 
 {% include image.html src="/assets/images/2026-08-18-copilot-cutover-agentradio-1.jpg" alt="Abstract multi-agent figures around a neon message ring with asynchronous signal threads" %}
@@ -63,13 +54,6 @@ On **SWE-Atlas QnA** (long-horizon natural-language questions over live producti
 
 That is the spicy claim: **four older Opus 4.6 workers with passive awareness beat one newer Opus 4.8 solo** on this benchmark. The MinIO case study in the paper is the engineering parable — two agents independently realized they needed per-request server logs; without async share, one gave up quietly and the team locked the wrong answer at review. With AgentRadio, one broadcast hit the shared worklog while peers were still executing, and the score flipped to full marks.
 
-```bash
-# sketch — follow upstream README; do not cargo-cult paths
-# message server + harness adapter + keep wait_for_mention in bg
-# harvest communication after a trial:
-# grep "sent message|created thread" trial/agent/coral-server.log
-```
-
 **Limits they own in public:** passive awareness distributes ideas someone already formed — it does not invent the missing negative hypothesis (Grafana case). Faster gossip can also spread a shared wrong assumption. Next bottlenecks they name: attention governance, evidence-aware routing, provenance for "which agent claimed what."
 
 Commercial cousin called out in coverage: **Coral Code** — bottom-up specialists spun from the repo rather than a fixed four-agent protocol on every ticket ([coralcode.dev](https://coralcode.dev/)).
@@ -81,25 +65,6 @@ Commercial cousin called out in coverage: **Coral Code** — bottom-up specialis
 Same week ops stack: **Hazmat** — open-source containment that runs coding agents (Claude Code, Codex, OpenCode, Cursor Agent, custom scripts) under a **separate OS account** with project-scoped write and credentials outside reach. Pre-launch printout of write/read/network terms; macOS sandbox + firewall path; demo that proves a key under `$HOME` stays unreadable. Spec slice in TLA+; binary is still software with bugs. Coverage: [Help Net Security](https://www.helpnetsecurity.com/2026/08/17/hazmat-open-source-ai-coding-agent-containment/). Repo: [github.com/dredozubov/hazmat](https://github.com/dredozubov/hazmat).
 
 Pair it with last week's open-weight defaults if you are running local Qwen/GLM bulk overnight — containment is orthogonal to which weights you pin. For shelves next to the agent box: [Raspberry Pi / small SBC](https://www.amazon.com/s?k=raspberry+pi+5&tag=spaghettistor-20) experiments, [external NVMe enclosure](https://www.amazon.com/s?k=nvme+enclosure+usb&tag=spaghettistor-20) for disposable agent worktrees, and a basic [hardware security key](https://www.amazon.com/s?k=yubikey&tag=spaghettistor-20) so the human path is stronger than the agent path.
-
-## Continuity map (do not thrash routers)
-
-| Day | Lead lane | Still true |
-| --- | --- | --- |
-| 08-16 | Open-weight coding (Qwen3.8-27B, GLM-5.3, DeepSeek clock tax) | Local/off-peak defaults |
-| 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
-| **08-18** | **Product cutover + multi-agent bus + containment** | Subtractive UX + listen-while-work + OS boundary |
-
-```python
-# route_sketch — still not a purchase order
-routes = {
-    "consumer_copilot": "verify_cutover_checklist",
-    "long_repo_qna": "try_agentradio_or_equivalent_bus",
-    "untrusted_agent_shell": "hazmat_or_isolated_user",
-    "volume_steps": "gemini-3.7-flash",  # yesterday
-    "local_dense": "qwen3.8-27b",          # 08-16
-}
-```
 
 ## Takeaway
 

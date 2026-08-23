@@ -7,9 +7,7 @@ excerpt: "OpenAI auto-enrolls under-18 accounts into Study Mode and Quiet Hours.
 image: "/assets/images/2026-08-20-claude-wet-lab-protein-binders-hero.jpg"
 ---
 
-This morning's first pass led with [wet-lab protein binders](https://www.anthropic.com/research/Claude-accelerates-protein-design): Claude orchestrated a 15-target campaign and 14 of them actually bound. That story still stands — recap at the bottom. **The rest of the 24-hour tape is product ops and silicon capital**, which yesterday's [Copilot cutover](https://toastyst.github.io/SpaghettiStories/2026/08/18/copilot-cutover-agentradio/) did not cover.
-
-Do not re-headline the tubes. The new primary sources are OpenAI's teen surface, Google's Marvell warrant, and the first MLPerf Client that scores agents on a PC.
+This morning's first pass led with [wet-lab protein binders](https://www.anthropic.com/research/Claude-accelerates-protein-design): Claude orchestrated a 15-target campaign and 14 of them actually bound. That story still stands — recap at the bottom. The rest of the 24-hour tape is product ops and silicon capital: OpenAI's teen surface, Google's Marvell warrant, and the first MLPerf Client that scores agents on a PC.
 
 ## Lead: ChatGPT for Teens is a default, not an app
 
@@ -78,15 +76,6 @@ A [Raspberry Pi 5](https://www.amazon.com/s?k=raspberry+pi+5&tag=spaghettistor-2
 Unchanged, still true, not the lead: [Anthropic's campaign](https://www.anthropic.com/research/Claude-accelerates-protein-design) hit binders on **14 of 15** targets. [Adaptyv](https://www.adaptyvbio.com/blog/anthropic-1) ran 1,320 designs; 354 bound (26.8%). MBP still produced zero. Protein design stays blocked in Fable 5. [Liquid shipped QAD Q4_0 GGUFs](https://huggingface.co/blog/LiquidAI/qad) for LFM2.5 230M–2.6B (~97% of BF16 recovered). [Cerebras CS-4](https://investors.cerebras.ai/news-releases/news-release-details/cerebras-unveils-cs-4-30-times-faster-gpu-based-solutions) is still a vendor 30× until independent serving configs land.
 
 {% include image.html src="/assets/images/2026-08-20-claude-wet-lab-protein-binders-1.jpg" alt="Abstract holographic protein lattices from this morning wet-lab campaign" %}
-
-## Continuity map
-
-| Day | Lead lane | Still true |
-| --- | --- | --- |
-| 08-16 | Open-weight coding (Qwen / GLM / DeepSeek) | Local/off-peak bulk |
-| 08-17 | Closed workhorse pricing (Flash intro, Grok 4.6) | Volume middle of the funnel |
-| 08-18 | Copilot cutover + AgentRadio + Hazmat | Subtractive UX + listen-while-work + OS boundary |
-| **08-20** | **Teen defaults + TPU-attach warrant + client agent benches** | Auto-enroll is the product; warrants vest on purchases; SWE-on-laptop is now a standard |
 
 ## Takeaway
 
